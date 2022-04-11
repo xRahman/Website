@@ -1,3 +1,23 @@
+Changelog
+- refactorovanej kód
+- měl by fungovat reload a ruční zadávání url
+- url jsou v češtině
+- přibyla úvodní stránka s discord widgetem
+- funguje stránka "Požadovaná stránka neexistuje."
+- mělo by se to výrazně rychlejš načítat (jsou zoptimalizovaný textury)
+- detekce supportu prohlížení pdfka (když není, zobrazí se odkaz na stažení)
+- prozatím jsem zrušil stránky "novinky" a "dobrodružství"
+- responzivní layout
+
+TODO: Prozatím zrušit stránky "novinky" a "dobrodruzstvi"
+[done]
+
+TODO: Dát to do gitu
+[done]
+
+TODO: Možná to i uploadnout na github...
+[done]
+
 TODO: Responzivní layout
 [done]
 
