@@ -1,0 +1,1 @@
+Dob&shy;ro&shy;druž&shy;ství za&shy;tím nej&shy;sou k&nbsp;dis&shy;po&shy;zi&shy;ci.

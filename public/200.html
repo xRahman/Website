@@ -1,0 +1,25 @@
+<!--
+  200.html is an exact copy of index.html
+
+  It is served on some hostings when an url is requested that doesn't
+  point to a physical file on the server (which it never does because
+  we are a single-page application). For the same reason it's also
+  necessary if user realods the page (current url is requested again).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+	<link rel="stylesheet" href="/assets/css/global.css">
+	<link rel="stylesheet" href="/build/bundle.css">
+
+	<script defer src="./build/bundle.js"></script>
+</head>
+
+<body>
+</body>
+</html>

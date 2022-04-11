@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*", "rollup.config.mjs"],
+  "exclude": ["node_modules/*", "public/*", "resources/*"],
+  "compilerOptions":
+  {
+    "strict": true,   // Enforce strict checking of 'null' and 'undefined'.
+  }
+}

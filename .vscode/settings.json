@@ -1,0 +1,58 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // Configure glob patterns for excluding files and folders.
+  "files.exclude":
+  {
+    ".git/": true,
+    ".gitattributes": true,
+    ".gitignore": true,
+    ".vscode/": true,
+    "node_modules/": true,
+    "public/build/": true,
+    "resources/": true,
+    "**/*.bat": true,
+    "amend": true,
+    "commit": true
+  },
+  "search.exclude":
+  {
+    ".git/": true,
+    ".vscode/": true,
+    "node_modules/": true,
+    "public/build/": true,
+    "resources": true,
+    "**/*.bat": true,
+    "**/*.json": true,
+    ".gitignore": true,
+    ".gitattributes": true,
+    ".eslintignore": true,
+    ".eslintrc.json": true,
+    "amend": true,
+    "commit": true
+  },
+
+  "editor.rulers": [80],
+
+  "editor.tabSize": 2,
+
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": false,
+
+  // The default end of line character.
+  "files.eol": "\n",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "git.ignoreLimitWarning": true,
+
+  // Whether the extension contributes a lint task to lint a whole workspace folder.
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": ". --ext .js,.jsx,.ts,.tsx",
+  "eslint.validate":
+  [
+    "javascript",
+    "typescript"
+  ],
+  // This option makes eslint log available by clicking
+  // on 'eslint' tag on the bottom status bar.
+  "eslint.trace.server": "messages"
+}

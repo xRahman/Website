@@ -1,0 +1,137 @@
+/***************************************************************/
+/*                           Fonts                             */
+/***************************************************************/
+
+/* Cambria */
+
+@font-face
+{
+  /* normal */
+  font-family: Cambria;
+  src: url(/assets/fonts/cambria.ttc);
+}
+
+@font-face
+{
+  /* bold */
+  font-family: Cambria;
+  src: url(/assets/fonts/cambriab.ttf);
+  font-weight: bold;
+}
+
+@font-face
+{
+  /* italic */
+  font-family: Cambria;
+  src: url(/assets/fonts/cambriai.ttf);
+  font-style: italic;
+}
+
+@font-face
+{
+  /* bold italic */
+  font-family: Cambria;
+  src: url(/assets/fonts/cambriaz.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* Constantia */
+
+@font-face
+{
+  /* normal */
+  font-family: Constantia;
+  src: url(/assets/fonts/constan.ttf);
+}
+
+@font-face
+{
+  /* bold */
+  font-family: Constantia;
+  src: url(/assets/fonts/constanb.ttf);
+  font-weight: bold;
+}
+
+@font-face
+{
+  /* italic */
+  font-family: Constantia;
+  src: url(/assets/fonts/constani.ttf);
+  font-style: italic;
+}
+
+@font-face
+{
+  /* bold italic */
+  font-family: Constantia;
+  src: url(/assets/fonts/constanz.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+/***************************************************************/
+/*                           Colors                            */
+/***************************************************************/
+
+:root
+{
+  --panelBorderColor: rgb(125, 125, 125);
+  --headerTextShadowColor: rgb(246, 230, 213);
+  --headerTextShadowActiveColor: rgb(234, 222, 208);
+  --headerTextEngravingColor: rgba(255,255,255,.5)
+}
+
+/***************************************************************/
+/*                        Scrollbars                           */
+/***************************************************************/
+
+/*
+  Scrollbar css only really works in webkit-capable browsers
+  (Chrome, Opera, Safari). Sorry, Firefox users...
+*/
+
+/* The size of the scrollbar */
+::-webkit-scrollbar
+{
+  width: 0.5625rem;
+}
+
+/* Fallback in non-webkit browsers */
+*
+{
+  scrollbar-width: thin;
+}
+
+/* The scrollbar track's style */
+::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 0.4rem rgba(212, 139, 21, 0.7);
+}
+
+/* The scrollbar handle */
+::-webkit-scrollbar-thumb
+{
+  border-radius: 0.3125rem;
+  background-image: url("/assets/images/marbleTransparent.png");
+  background-repeat: repeat;
+  box-shadow: inset 0 0 0.5rem rgba(165, 134, 79, 0.6);
+  border: 0.1rem solid rgba(145, 106, 39, 0.6);
+  border-style: ridge;
+}
+
+/* Fallback in non-webkit browsers */
+*
+{
+  scrollbar-color: rgb(0, 0, 0) rgba(245, 219, 176, 0.5);
+}
+
+/* The scrollbar handle when the browser window is in the background */
+/*
+::-webkit-scrollbar-thumb:window-inactive
+{
+  background: rgb(0, 0, 0);
+  -webkit-box-shadow: rgb(110, 130, 150);
+}
+*/

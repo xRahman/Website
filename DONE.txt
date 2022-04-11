@@ -1,0 +1,79 @@
+TODO: Responzivní layout
+[done]
+
+
+TODO: Doplnit do textů nonbreakable space &nbsp;
+[done]
+
+TODO: Fixnout warningy při buildu:
+  WARNING: No configurations found in configuration directory:D:\DrDKlasik\website\config
+  WARNING: To disable this warning set SUPPRESS_NO_CONFIG_WARNING in the environment.
+- Pravděpodobně to souvisí s tslintovým errorem v rollup.config.mjs,
+  měl bych asi mít config file, ve kterym bude řečeno, jestli jsem
+  v production módu nebo ne.
+[kašlat na to, zjevně to není potřeba]
+
+TODO: Použít knihovnu na embednutí pdfka s fallbackem
+[done]
+
+TODO: Stylovat css classama, ne idčkama.
+[done]
+
+TODO: Všude používat 'rem' místo 'em'
+[done]
+
+TODO: Přesunout css pro <body> z global.css jinam
+- do App.svelte
+[done]
+
+TODO: Udělat 404.html
+"Požadovaná stránka neexistuje."
+[done]
+
+TODO: Menu zabalit do <nav></nav>
+[done]
+
+TODO: .htaccess
+[snad]
+
+TODO: pointer kurzor na buttonech
+[done]
+
+TODO: V datech u obrázků mít honodtu "alt" atributu (popis).
+- asi mám jen logo
+[done]
+
+TODO: Zvýraznit aktivní záložku?
+- asi ne
+[won't do]
+
+TODO: Vyzkoušet absolutní cesty při routování
+  (buguje se to, když se odkáže něco neexistujícího)
+[done]
+
+TODO: Asi si dost zjednodušim život, když dám navbaru fixní velikost
+  Když bo bude v em, tak to vlastně bude fungovat stejně jako teď.
+  (místo aby to byla velikost písma + 2* padding, to rovnou seču a dám
+   padding auto)
+- bude to ale chtít vejšku navbaru dát do css propery, abych jí mohl
+  odečíst od vejšky body elementu a neměl hodnotu na dvou místech.
+[vyřešeno css gridem]
+
+
+Home
+-----
+
+Dračák podle staré školy je stolní hra na hrdiny inspirovaná Dračím doupětem. Stejně jako v něm se můžeš stát silnou barbarskou válečnicí, sličným elfín kouzelníkem nebo třeba mrštnou hobití zlodějkou a spolu se svými přáteli zažít spoustu zábavy při objevování tajemných hradů a dávno zapomenutých ruin, prozkoumávání podzemí plných pastí, nepřátel a pokladů nebo třeba při výpravě na draka devastujícího vaše království.
+
+Nejspíš se ti bude líbit, pokud:
+Vyhovuje ti konverzační styl hry, kde se hází většinou jen v boji.
+Sedí ti svižné souboje, kde má smysl dělat i něco jiného než útočit.
+Baví tě vymýšlet kreativní řešení pomocí různých schopností a předmětů.
+Nevadí ti přemýšlet a mluvit za svou postavu.
+Dokážeš si ve hře najít vlastní cíle a motivaci, proč se vydat za dobrodružstvím.
+
+Naopak se ti nejspíš moc líbit nebude, pokud:
+- Vyhovuje ti kombení a tvorba přesílených postav.
+- Baví tě překonávat překážky hodem kostkou.
+- Čekáš od Pána jeskyně, že tě provede připraveným příběhem.
+[done]

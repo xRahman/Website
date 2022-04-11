@@ -1,0 +1,41 @@
+Update: Much cleaner solution is to use .png with desired transparency.
+
+-------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=LQsjNmkqUOc
+
+Example:
+--------
+
+<nav>
+  <a href="./news">Novinky</a>
+</nav>
+
+<style>
+  nav
+  {
+    /* We need to set "position: relative" to container
+       in order to pseudo element to position properly */
+    position: relative;
+    opacity: 0.6;
+  }
+  nav::before
+  {
+    content: "";
+    background-image: url("/assets/images/marble2.jpg");
+    background-repeat: repeat;
+    border: 1px solid black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  a
+  {
+    /* We also need to set "position: relative" to contents
+       for it to stack after pseudo element in z-order. */
+    position: relative;
+  }
