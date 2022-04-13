@@ -1,6 +1,10 @@
 Články
 ------
 
+TODO: Výhledově řešit news tak, že na hlavní stránce bude jen ta nejnovější,
+  plus uživatel bude mít v local storage savnuto, kdy si ji poprvé zobrazil
+  a pokud to bude delší než X dní, už se mu ukazovat nebude.
+
 Skoro každý, kdo hrál Dračí doupě, si dříve nebo později upravil pravidla k obrazu svému. To, kupodivu, nebyl můj případ.
 - dlouho jsem hrával Shadowrun
 - dungeoncrawl
