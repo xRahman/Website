@@ -18,7 +18,7 @@
   <Panel>
     <p>{pdfNotSupported}</p>
     <ul>
-      <li><a href={pdfPath}>{downloadHere}</a></li>
+      <li><a href={pdfPath} target="_blank">{downloadHere}</a></li>
     </ul>
   </Panel>
 {/if}
