@@ -13,8 +13,6 @@
 <style>
   .Header
   {
-    width: 100%;
-
     /* ----------- Background and border ----------- */
     background-image: url("/assets/images/marbleTransparent.png");
     background-repeat: repeat;
