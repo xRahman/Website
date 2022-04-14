@@ -4,19 +4,16 @@
 </script>
 
 <div class="Header">
-  <Logo />
-  <Navbar />
+  <div class="Header-container">
+    <Logo />
+    <Navbar />
+  </div>
 </div>
 
 <style>
   .Header
   {
-    max-width: 40rem;
-
-    /* ------- Children size and positioning ------- */
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
+    width: 100%;
 
     /* ----------- Background and border ----------- */
     background-image: url("/assets/images/marbleTransparent.png");
@@ -24,11 +21,22 @@
     border: 0.1rem ridge var(--panelBorderColor);
   }
 
+  .Header-container
+  {
+    margin: 0 auto;
+    max-width: 40rem;
+
+    /* ------- Children size and positioning ------- */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
   @media screen and (max-width: 32rem)
   {
-    .Header
+    .Header-container
     {
-      max-width: 40rem;
 
       /* ------- Children size and positioning ------- */
       display: grid;
