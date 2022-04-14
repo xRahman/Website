@@ -14,16 +14,10 @@
 
     margin: var(--margin) auto;
 
-    /* width: 100%; */
     /* Subtract margins so we don't overflow our parent. */
     height: calc(100% - 2 * var(--margin));
-
     width: calc(100% - 2 * var(--margin));
     max-width: 40rem;
-    /* max-width: 40rem;
-    min-width: calc(100% - 2 * var(--margin)); */
-    /* width: 40rem;
-    max-width: calc(100% - 2 * var(--margin)); */
 
     /* ----------- Background and outline ----------- */
     background-image: url("/assets/images/marbleTransparent.png");
