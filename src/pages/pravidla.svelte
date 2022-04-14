@@ -7,17 +7,18 @@
 
   const pdfNotSupported = guiLocalization.cs.rules.pdfNotSupported;
   const downloadHere = guiLocalization.cs.rules.downloadHere;
+  const pdfPath = "/data/rules/Dracak-latest.pdf";
 </script>
 
 <Header></Header>
 
 {#if PDFObject.supportsPDFs}
-  <embed src="/data/rules/Dracak-latest.pdf" type="application/pdf" width="100%" height="100%">
+  <embed src={pdfPath} type="application/pdf" width="100%" height="100%">
 {:else}
   <Panel>
     <p>{pdfNotSupported}</p>
     <ul>
-      <li><a href="[url]">{downloadHere}</a></li>
+      <li><a href={pdfPath}>{downloadHere}</a></li>
     </ul>
   </Panel>
 {/if}
