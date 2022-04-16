@@ -1,11 +1,14 @@
 <script lang="ts">
-  import Header from "../components/Header.svelte";
-  import Panel from "../components/Panel.svelte";
   import Adventures from "../data/Adventures.md";
+  import Header from "../components/Header.svelte";
+  import Markdown from "../components/Markdown.svelte";
+  import Panel from "../components/Panel.svelte";
 </script>
 
 <Header />
 
 <Panel>
-  <Adventures />
+  <Markdown>
+    <Adventures />
+  </Markdown>
 </Panel>

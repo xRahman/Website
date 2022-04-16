@@ -1,3 +1,5 @@
+TODO: Zvětšit řádkování textu na 1,42.
+
 Články
 ------
 
