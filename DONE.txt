@@ -1,4 +1,6 @@
 Changelog
+- řádkování textu zvětšeno na 1,42.
+
 - refactorovanej kód
 - měl by fungovat reload a ruční zadávání url
 - url jsou v češtině
@@ -8,6 +10,9 @@ Changelog
 - detekce supportu prohlížení pdfka (když není, zobrazí se odkaz na stažení)
 - prozatím jsem zrušil stránky "novinky" a "dobrodružství"
 - responzivní layout
+
+TODO: Zvětšit řádkování textu na 1,42.
+[done]
 
 TODO: Prozatím zrušit stránky "novinky" a "dobrodruzstvi"
 [done]
