@@ -1,3 +1,9 @@
+TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
+
+TODO: stránka "Generátory".
+- v prvním kroku čistě očíslovanej seznam
+- pak implementovat náhodnej výběr n položek
+- možná tak, aby se neopakovaly, dokud nedojdou
 
 Články
 ------

@@ -29,6 +29,11 @@ export const guiLocalization: GuiLocalizationInterface =
       //   label: "Dobrodružství"
       // },
       {
+        id: "generators",
+        route: "/generatory",
+        label: "Generátory"
+      },
+      {
         id: "links",
         route: "/odkazy",
         label: "Odkazy"

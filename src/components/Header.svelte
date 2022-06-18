@@ -25,22 +25,26 @@
     max-width: 40rem;
 
     /* ------- Children size and positioning ------- */
-    display: grid;
+    /* display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: auto 1fr;
+    align-items: center; */
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
   }
 
-  @media screen and (max-width: 32rem)
+  /* @media screen and (max-width: 32rem)
   {
     .Header-container
-    {
-
+    { */
       /* ------- Children size and positioning ------- */
-      display: grid;
+      /* display: grid;
       grid-template-rows: 1fr 1fr;
       grid-template-columns: 1fr;
       align-items: center;
     }
-  }
+  } */
 </style>

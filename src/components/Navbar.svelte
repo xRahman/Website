@@ -16,10 +16,11 @@
 <style>
   .Navbar
   {
-    justify-self: end;
+    /* justify-self: end; */
+    justify-self: center;
   }
 
-  @media screen and (max-width: 38rem)
+  /* @media screen and (max-width: 38rem)
   {
     .Navbar
     {
@@ -28,14 +29,14 @@
       grid-template-rows: 1fr 1fr;
       align-items: center;
     }
-  }
+  } */
 
-  @media screen and (max-width: 32rem)
+  /* @media screen and (max-width: 32rem)
   {
     .Navbar
     {
       display: block;
       justify-self: center;
     }
-  }
+  } */
 </style>

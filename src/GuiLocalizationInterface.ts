@@ -25,6 +25,11 @@ interface LanguageInterface
     //   readonly label: string
     // },
     {
+      readonly id: "generators",
+      readonly route: string,
+      readonly label: string
+    },
+    {
       readonly id: "links",
       readonly route: string,
       readonly label: string

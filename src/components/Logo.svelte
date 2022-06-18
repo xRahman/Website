@@ -22,6 +22,8 @@
 
     cursor: pointer;
 
+    justify-self: center;
+
     /* Center contained image and text vertically. */
     display: grid;
     grid-template-columns: auto auto;
@@ -40,13 +42,13 @@
     vertical-align: top;
   }
 
-  @media screen and (max-width: 32rem)
+  /* @media screen and (max-width: 32rem)
   {
     .Logo
     {
       justify-self: center;
     }
-  }
+  } */
 
   @media screen and (max-width: 24rem)
   {
