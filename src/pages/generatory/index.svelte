@@ -14,6 +14,15 @@
 <Header />
 <Panel>
   {#each tables as table}
-    <a href="/generatory/{table.id}">{table.heading}</a>
+    <a href="/generatory/{table.id}" class="LinkToGenerator">
+      {table.heading}
+    </a>
 	{/each}
 </Panel>
+
+<style>
+  .LinkToGenerator
+  {
+    font-size: 1.4rem;
+  }
+</style>
