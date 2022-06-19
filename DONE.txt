@@ -1,3 +1,6 @@
+TODO: Chybné suburl (/generatory/neco) by melo zobrazit 404ku.
+[done]
+
 Changelog
 - řádkování textu zvětšeno na 1,42.
 

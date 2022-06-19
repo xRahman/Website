@@ -1,7 +1,5 @@
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 
-TODO: Chybné subrl (/generatory/neco) by melo zobrazit 404ku.
-
 Články
 ------
 

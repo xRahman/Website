@@ -8,6 +8,8 @@
   // import { personnalItems } from "../../data/PersonnalItems";
   import { randomTables } from "../../data/RandomTables";
 
+  // This will be passed by routify
+  // (it's the part of url after /generators/)
   export let generatorId: string;
 
   const table = randomTables[generatorId];
