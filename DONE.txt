@@ -11,6 +11,12 @@ Changelog
 - prozatím jsem zrušil stránky "novinky" a "dobrodružství"
 - responzivní layout
 
+TODO: stránka "Generátory".
+- v prvním kroku čistě očíslovanej seznam
+- pak implementovat náhodnej výběr n položek
+- možná tak, aby se neopakovaly, dokud nedojdou
+[done]
+
 TODO: Zvětšit řádkování textu na 1,42.
 [done]
 
