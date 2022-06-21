@@ -153,7 +153,13 @@ export const randomTables: RandomTables =
       "lahvička s kysaným zelím",
       "brýle",
       "kožené rukavice",
-      "kostěný nůž a vidlička"
+      "kostěný nůž a vidlička",
+      "umělý nos",
+      "modlitební chřestítko",
+      "váček se sadou runových kamenů",
+      "váček se skleněnou kuličkou a cedulkou \"oko hydry\"",
+      "kadeřnické nůžky",
+      "železo na vypalování otrockého cejchu"
     ]
   }
 };
