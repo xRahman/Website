@@ -225,7 +225,7 @@ export const randomTables: RandomTables =
   },
   "chovani":
   {
-    heading: "Chovani",
+    heading: "Chování",
     itemType: "rys",
     items:
     [
