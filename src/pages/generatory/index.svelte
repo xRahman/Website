@@ -23,7 +23,8 @@
 <style>
   .LinkToGenerator
   {
-    font-size: 1.4rem;
     display: block;
+    font-size: 1.4rem;
+    line-height: 142%;
   }
 </style>
