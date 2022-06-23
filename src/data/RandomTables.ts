@@ -18,6 +18,7 @@ export const randomTables: RandomTables =
     items:
     [
       "nůž",
+      "rezavý nůž",
       "šperk",
       "váček s bylinkami",
       "troud a křesadlo, dýmka a dýmkové koření",
@@ -38,6 +39,7 @@ export const randomTables: RandomTables =
       "flakónek s jedem",
       "balíček karet",
       "balíček karet (označených)",
+      "hrací kostky",
       "hrací kostky (cinknuté)",
       "pletací jehlice a klubko vlny",
       "paklíče",
@@ -82,7 +84,6 @@ export const randomTables: RandomTables =
       "váček se živou ropuchou",
       "olejnička",
       "krabička plná pavoučích sítí",
-      "zapečetěná obálka (prázdná)",
       "krabička šňupacího tabáku",
       "flakón s modrou pěnivou tekutinou a nálepkou \"na nespavost\"",
       "dřevěná tabulka s obrázkem elfí dívky",
@@ -159,7 +160,22 @@ export const randomTables: RandomTables =
       "váček se sadou runových kamenů",
       "váček se skleněnou kuličkou a cedulkou \"oko hydry\"",
       "kadeřnické nůžky",
-      "železo na vypalování otrockého cejchu"
+      "železo na vypalování otrockého cejchu",
+      "hrst fazolí",
+      "tabulka s voskovým povrchem a rydlo",
+      "králičí pacička",
+      "jídelní hůlky",
+      "tenké dřívko s rozžvýkaným koncem",
+      "keramická figurka plnoštíhlé ženy",
+      "kyselé jablko",
+      "ostrouhaný kořen křenu",
+      "rezavý klíč",
+      "přezka na opasek",
+      "zlomený husí brk",
+      "lahvička inkoustu",
+      "lněný kapesník",
+      "váček sušených datlí",
+      "troud a křesadlo"
     ]
   }
 };
