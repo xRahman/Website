@@ -24,5 +24,6 @@
   .LinkToGenerator
   {
     font-size: 1.4rem;
+    display: block;
   }
 </style>
