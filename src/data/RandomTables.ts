@@ -175,7 +175,8 @@ export const randomTables: RandomTables =
       "lahvička inkoustu",
       "lněný kapesník",
       "váček sušených datlí",
-      "troud a křesadlo"
+      "troud a křesadlo",
+      "mýdlo"
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
