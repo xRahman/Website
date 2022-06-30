@@ -176,13 +176,34 @@ export const randomTables: RandomTables =
       "lněný kapesník",
       "váček sušených datlí",
       "troud a křesadlo",
-      "mýdlo"
+      "mýdlo",
+      "psací brk",
+      "balíček s pláství medu",
+      "balíček s tvrdým sýrem",
+      "smotaný drát",
+      "dřevěná káča",
+      "džbánek medu",
+      "drátěný kartáč",
+      "talisman",
+      "nožík na dopisy",
+      "pytlík zvířecích kostí",
+      "samorost",
+      "sekáček na maso",
+      "sněžnice",
+      "soška bohyně",
+      "soška hlavonožce",
+      "vlna a pletací jehlice",
+      "slaměná panenka",
+      "zdobený nožík na dopisy",
+      "zdobený nůž",
+      "liščí kožešina",
+      "železný prsten"
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "vzhled":
+  "vzhled-hracske-postavy":
   {
-    heading: "Vzhled",
+    heading: "Vzhled (hráčské postavy)",
     itemType: "rys",
     items:
     [
@@ -224,9 +245,62 @@ export const randomTables: RandomTables =
       "zlomený nos"
     ]
   },
-  "chovani":
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  "vzhled-nehracske-postavy":
   {
-    heading: "Chování",
+    heading: "Vzhled (nehráčské postavy)",
+    itemType: "rys",
+    items:
+    [
+      "albín",
+      "aristokratické rysy",
+      "bílé vlasy a vousy",
+      "chybějící prst",
+      "chybějící ucho",
+      "dobrácká tvář",
+      "holohlavý",
+      "hrbatý",
+      "jizvy od popálenin",
+      "jizvy z boje",
+      "klanové tetování",
+      "kulhá",
+      "kultistické tetování",
+      "malý",
+      "maska na tváři",
+      "nadpozemsky krásný",
+      "neobvyklý účes",
+      "námořnické tetování",
+      "orlí nos",
+      "otrocký cejch",
+      "oči nezvyklé barvy",
+      "pihovatý",
+      "páska přes oko",
+      "přitažlivý",
+      "přísný výraz",
+      "rituální tetování",
+      "rozložitý",
+      "usměvavý",
+      "velký nos",
+      "vychrtlý",
+      "vypadá mladší",
+      "vysoký",
+      "má výraznou bradu",
+      "výstředně se obléká",
+      "zavalitý",
+      "zlomený nos",
+
+      // Rysy pouze pro nehráčské postavy.
+      "ochrnutá část těla",
+      "chybějící končetina",
+      "jizvy od neštovic",
+      "velké poprsí",
+      "znetvořený"
+    ]
+  },
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  "chovani-hracske-postavy":
+  {
+    heading: "Chování (hráčské postavy)",
     itemType: "rys",
     items:
     [
@@ -265,7 +339,82 @@ export const randomTables: RandomTables =
       "zabíjí jen v krajní nouzi",
       "zbožný",
       "ztratil víru",
-      "zvědavý"
+      "zvědavý",
+
+      // Následující rysy nejsou v pravidlech.
+      "citlivý žaludek",
+      "otužilý nebo zimomřivý",
+      "nejí maso"
+    ]
+  },
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  "chovani-nehracske_postavy":
+  {
+    heading: "Chování (nehráčské postavy)",
+    itemType: "rys",
+    items:
+    [
+      "držgrešle",
+      "exotický přízvuk",
+      "gurmán",
+      "když je nervózní, brousí si zbraně",
+      "kleptoman",
+      "má oblíbenou frázi",
+      "milovník alkoholu",
+      "miluje boj",
+      "miluje šperky",
+      "mluví rychle",
+      "mluví sprostě",
+      "mluví učeně",
+      "mrmlá na novoty",
+      "muž činu",
+      "náruživý kuřák",
+      "nenechá přítele ve štychu",
+      "nesnáší pavouky",
+      "nezná stud",
+      "nikdy nelže",
+      "prostořeký",
+      "prozradí každé tajemství",
+      "ráčkuje",
+      "snadno se rozpláče",
+      "spřádá dalekosáhlé plány",
+      "spřádá konspirační teorie",
+      "strohý",
+      "stydlivý",
+      "sukničkář",
+      "štědrý",
+      "veselý",
+      "vždy dbá na svůj vzhled",
+      "vždy hladový",
+      "zabíjí jen v krajní nouzi",
+      "zbožný",
+      "ztratil víru",
+      "zvědavý",
+
+      // Následující rysy nejsou v pravidlech.
+      "má citlivý žaludek",
+      "otužilý nebo zimomřivý",
+      "nejí maso",
+
+      // Rysy pouze pro nehráčské postavy.
+      "nemotorný",
+      "hlasitě chrápe",
+      "dýchavičný",
+      "nedoslýchavý",
+      "slabozraký",
+      "často kleje",
+      "huhlá",
+      "šišlá",
+      "masochista",
+      "milovník rostlin",
+      "milovník zvířat",
+      "krutý",
+      "surový",
+      "mluví ve verších",
+      "má nějakou fóbii",
+      "strašpytel",
+      "vtipálek",
+      "lhostejný"
     ]
   }
 };
