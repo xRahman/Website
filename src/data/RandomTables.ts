@@ -239,7 +239,7 @@ export const randomTables: RandomTables =
       "vychrtlý",
       "vypadá mladší",
       "vysoký",
-      "má výraznou bradu",
+      "výrazná brada",
       "výstředně se obléká",
       "zavalitý",
       "zlomený nos"
@@ -284,7 +284,7 @@ export const randomTables: RandomTables =
       "vychrtlý",
       "vypadá mladší",
       "vysoký",
-      "má výraznou bradu",
+      "výrazná brada",
       "výstředně se obléká",
       "zavalitý",
       "zlomený nos",
