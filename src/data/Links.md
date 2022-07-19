@@ -1,5 +1,7 @@
 Spra&shy;vu&shy;ješ we&shy;bo&shy;vé strán&shy;ky, dis&shy;cord ser&shy;ver ne&shy;bo ji&shy;nou plat&shy;for&shy;mu, kde se hra&shy;je Dra&shy;čák pod&shy;le sta&shy;ré ško&shy;ly ne&shy;bo se o&nbsp;něm mlu&shy;ví? Poš&shy;li mi <a href="https://discordapp.com/users/York#9023" target="_blank">na dis&shy;cor&shy;du</a> od&shy;kaz a já ho při&shy;dám do sez&shy;na&shy;mu.
 
+• <a href="/data/rules/Dracak-latest.pdf" target="_blank">Pra&shy;vid&shy;la (pdf)</a>
+
 • <a href="/data/rules/Dracak-latest-no-images.pdf" target="_blank">Pra&shy;vid&shy;la bez ob&shy;ráz&shy;ků (pdf)</a>
 
 • <a href="/data/adventures/ProkletyOstrov.pdf" target="_blank"> Dob&shy;ro&shy;druž&shy;ství Pro&shy;kle&shy;tý os&shy;trov (pdf)</a>
