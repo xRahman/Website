@@ -4,6 +4,8 @@ Spra&shy;vu&shy;ješ we&shy;bo&shy;vé strán&shy;ky, dis&shy;cord ser&shy;ver n
 
 • <a href="/data/adventures/ProkletyOstrov.pdf" target="_blank"> Dob&shy;ro&shy;druž&shy;ství Pro&shy;kle&shy;tý os&shy;trov (pdf)</a>
 
+• <a href="/data/adventures/ProkletyOstrov-no-images.pdf" target="_blank"> Dob&shy;ro&shy;druž&shy;ství Pro&shy;kle&shy;tý os&shy;trov bez ob&shy;ráz&shy;ků (pdf)</a>
+
 • <a href="https://discord.gg/bSCtzwNSFt" target="_blank">Dis&shy;cord ser&shy;ver **Dra&shy;čák pod&shy;le sta&shy;ré ško&shy;ly**</a>
 
 • <a href="https://rpgforum.cz/forum/viewtopic.php?t=15126" target="_blank">Dis&shy;ku&shy;se na RPG fó&shy;ru</a>
