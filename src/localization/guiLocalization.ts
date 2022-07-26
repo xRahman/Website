@@ -40,7 +40,7 @@ export const guiLocalization: GuiLocalizationInterface =
       },
       {
         id: "downloads",
-        route: "/ke-stazeni",
+        route: "/ke_stazeni",
         label: "Ke stažení"
       }
     ]

@@ -11,7 +11,7 @@ type RandomTables =
 export const randomTables: RandomTables =
 {
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "osobni-predmety":
+  osobni_predmety:
   {
     heading: "Osobní předměty",
     itemType: "předmět",
@@ -201,7 +201,7 @@ export const randomTables: RandomTables =
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "vzhled-hracske-postavy":
+  vzhled_hracske_postavy:
   {
     heading: "Vzhled (hráčské postavy)",
     itemType: "rys",
@@ -246,7 +246,7 @@ export const randomTables: RandomTables =
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "vzhled-nehracske-postavy":
+  vzhled_nehracske_postavy:
   {
     heading: "Vzhled (nehráčské postavy)",
     itemType: "rys",
@@ -298,7 +298,7 @@ export const randomTables: RandomTables =
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "chovani-hracske-postavy":
+  chovani_hracske_postavy:
   {
     heading: "Chování (hráčské postavy)",
     itemType: "rys",
@@ -348,7 +348,7 @@ export const randomTables: RandomTables =
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "chovani-nehracske-postavy":
+  chovani_nehracske_postavy:
   {
     heading: "Chování (nehráčské postavy)",
     itemType: "rys",
