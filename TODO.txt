@@ -1,6 +1,4 @@
 TODO:
-- přidat možnost stáhnout Gameconové deníky
-- do odkazů přidat odkaz na pravidla
 - dát na web pravidla v A4 sazbě
 
 

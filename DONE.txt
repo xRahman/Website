@@ -1,3 +1,9 @@
+- přidat možnost stáhnout Gameconové deníky
+  [done]
+
+- do odkazů přidat odkaz na pravidla
+  [done]
+
 TODO: Chybné suburl (/generatory/neco) by melo zobrazit 404ku.
 [done]
 
