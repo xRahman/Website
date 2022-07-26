@@ -34,14 +34,14 @@ export const guiLocalization: GuiLocalizationInterface =
         label: "Generátory"
       },
       {
-        id: "downloads",
-        route: "/ke_stazeni",
-        label: "Ke stažení"
-      },
-      {
         id: "links",
         route: "/odkazy",
         label: "Odkazy"
+      },
+      {
+        id: "downloads",
+        route: "/ke_stazeni",
+        label: "Ke stažení"
       }
     ]
   }
