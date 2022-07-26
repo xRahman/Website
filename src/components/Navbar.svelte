@@ -20,16 +20,29 @@
     justify-self: center;
   }
 
-  /* @media screen and (max-width: 38rem)
+  @media screen and (max-width: 29rem)
+  {
+    .Navbar
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+    }
+  }
+
+  @media screen and (max-width: 14rem)
   {
     .Navbar
     {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: auto;
       align-items: center;
+      justify-items: center;
     }
-  } */
+  }
 
   /* @media screen and (max-width: 32rem)
   {

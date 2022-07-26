@@ -30,6 +30,11 @@ interface LanguageInterface
       readonly label: string
     },
     {
+      readonly id: "downloads",
+      readonly route: string,
+      readonly label: string
+    },
+    {
       readonly id: "links",
       readonly route: string,
       readonly label: string
