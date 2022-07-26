@@ -348,7 +348,7 @@ export const randomTables: RandomTables =
     ]
   },
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  "chovani-nehracske_postavy":
+  "chovani-nehracske-postavy":
   {
     heading: "Chování (nehráčské postavy)",
     itemType: "rys",
