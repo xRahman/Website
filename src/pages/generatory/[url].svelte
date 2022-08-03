@@ -5,21 +5,25 @@
   import NotFound from "../../data/NotFound.md";
 
   import Generator from "../../components/Generator.svelte";
-  // import { personnalItems } from "../../data/PersonnalItems";
   import { randomTables } from "../../data/RandomTables";
 
   // This will be passed by routify
   // (it's the part of url after /generators/)
-  export let generatorId: string;
+  export let url: string;
 
-  const table = randomTables[generatorId];
+  // Expected format of url (after /generatory/)
+  // is "{cathegoryId}-{generatorId}".
+  const urlSplit = url.split("-");
+
+  const cathegory = randomTables[urlSplit[0]];
+  const table = cathegory.tables[urlSplit[1]];
 </script>
 
 <Header />
 
 <Panel>
   {#if table}
-    <h2>{table.heading}</h2>
+    <h2>{cathegory.name} – {table.name}</h2>
     <Generator sourceList={table.items} itemType={table.itemType} />
   {:else}
     <Markdown>

@@ -1,6 +1,40 @@
 TODO:
 - dát na web pravidla v A4 sazbě
 
+IDEA: Generátory jmen
+
+Tvorba hráčských postav
+  Vzhled
+  Charakter
+
+Tvorba nehráčských postav
+  Vzhled
+  Charakter
+  Osobní předměty
+
+Ženská jména
+  barbar
+  člověk
+  elf
+  hobit
+  kroll
+  kudůk
+  trpaslík
+  ork
+  goblin
+
+Mužská jména
+  barbar
+  člověk
+  elf
+  hobit
+  kroll
+  kudůk
+  trpaslík
+  ork
+  goblin
+
+
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 
