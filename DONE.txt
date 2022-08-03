@@ -1,3 +1,33 @@
+IDEA: Generátory jmen
+  Tvorba hráčských postav
+    Vzhled
+    Charakter
+  Tvorba nehráčských postav
+    Vzhled
+    Charakter
+    Osobní předměty
+  Ženská jména
+    barbar
+    člověk
+    elf
+    hobit
+    kroll
+    kudůk
+    trpaslík
+    ork
+    goblin
+  Mužská jména
+    barbar
+    člověk
+    elf
+    hobit
+    kroll
+    kudůk
+    trpaslík
+    ork
+    goblin
+[done]
+
 - přidat možnost stáhnout Gameconové deníky
   [done]
 

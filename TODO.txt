@@ -1,40 +1,6 @@
 TODO:
 - dát na web pravidla v A4 sazbě
 
-IDEA: Generátory jmen
-
-Tvorba hráčských postav
-  Vzhled
-  Charakter
-
-Tvorba nehráčských postav
-  Vzhled
-  Charakter
-  Osobní předměty
-
-Ženská jména
-  barbar
-  člověk
-  elf
-  hobit
-  kroll
-  kudůk
-  trpaslík
-  ork
-  goblin
-
-Mužská jména
-  barbar
-  člověk
-  elf
-  hobit
-  kroll
-  kudůk
-  trpaslík
-  ork
-  goblin
-
-
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 
@@ -44,9 +10,3 @@ TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 TODO: Výhledově řešit news tak, že na hlavní stránce bude jen ta nejnovější,
   plus uživatel bude mít v local storage savnuto, kdy si ji poprvé zobrazil
   a pokud to bude delší než X dní, už se mu ukazovat nebude.
-
-Skoro každý, kdo hrál Dračí doupě, si dříve nebo později upravil pravidla k obrazu svému. To, kupodivu, nebyl můj případ.
-- dlouho jsem hrával Shadowrun
-- dungeoncrawl
-- nekonečné diskuse o remaku
-- hra vhodná pro dlouhodobé kampaně
