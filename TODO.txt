@@ -1,6 +1,8 @@
 TODO:
 - dát na web pravidla v A4 sazbě
 
+BUG: Generátory se neresetujou po kliknutí na jinou
+  stránku a návratu zpět.
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 
