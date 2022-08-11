@@ -1,3 +1,6 @@
+BUG: Generátory se neresetujou po kliknutí na jinou
+  stránku a návratu zpět.
+
 IDEA: Generátory jmen
   Tvorba hráčských postav
     Vzhled

@@ -24,7 +24,9 @@
 <Panel>
   {#if table}
     <h2>{cathegory.name} – {table.name}</h2>
-    <Generator sourceList={table.items} itemType={table.itemType} />
+    <!-- Make a copy of source data using [...sourceData] to
+         ensure it doesn't get modified inside generator. -->
+    <Generator sourceList={[...table.items]} itemType={table.itemType} />
   {:else}
     <Markdown>
       <NotFound />
