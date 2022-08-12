@@ -1,6 +1,11 @@
+<script lang="ts">
+  export let disabled = false;
+  export let hidden = false;
+</script>
+
 <!-- Not specifying the click handler will forward the
      click event to parent component. -->
-<button class="Button" on:click>
+<button class="Button" class:Hidden={hidden} on:click {disabled}>
   <slot/>
 </button>
 
@@ -22,5 +27,16 @@
   .Button:active
   {
     background-color: rgba(220, 220, 220, 0.6);
+  }
+  .Button:disabled
+  {
+    color: gray;
+    border: 0.06rem solid gray;
+    background-color: rgba(220, 220, 220, 0.6);
+  }
+
+  .Hidden
+  {
+    visibility: hidden;
   }
 </style>
