@@ -4,7 +4,7 @@
   export let sourceList: string[] = [];
   export let itemType = "položka";
 
-  let disabled = false;
+  let buttonDisabled = false;
   let outputList: string[] = [];
 
   function removeItem(array: string[], index: number)
@@ -22,7 +22,7 @@
   {
     if (sourceList.length < 1)
     {
-      disabled = true;
+      buttonDisabled = true;
       return;
     }
 
@@ -38,7 +38,7 @@
 </script>
 
 <div class="Generator">
-  <Button on:click={generateItem} {disabled}>
+  <Button on:click={generateItem} disabled={buttonDisabled}>
     Další {itemType}
   </Button>
   {#each outputList as outputItem}
