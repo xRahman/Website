@@ -29,6 +29,5 @@
     display: block;
     font-size: 1.1rem;
     line-height: 142%;
-    margin-left: 1rem;
   }
 </style>
