@@ -1,5 +1,6 @@
 TODO:
 - dát na web pravidla v A4 sazbě
+- dát na web ceník
 
 
 TODO: Když dojdou položky v generátoru, renderovat dál button,
