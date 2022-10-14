@@ -2,9 +2,7 @@
 </script>
 
 <div class="Panel">
-  <div class="Panel-scrollarea">
-    <slot />
-  </div>
+  <slot />
 </div>
 
 <style>
@@ -23,17 +21,5 @@
     background-image: url("/assets/images/marbleTransparent.png");
     background-repeat: repeat;
     outline: 0.1rem groove var(--panelBorderColor);
-  }
-
-  .Panel-scrollarea
-  {
-    box-sizing: border-box;
-    height: 100%;
-
-    padding: 2rem;
-
-    text-align: justify;
-    hyphens: manual;
-    overflow-y: auto;
   }
 </style>

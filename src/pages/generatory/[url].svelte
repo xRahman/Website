@@ -1,6 +1,7 @@
 <script lang="ts">
   import Header from "../../components/Header.svelte";
   import Panel from "../../components/Panel.svelte";
+  import ScrollArea from "../../components/ScrollArea.svelte";
   import Markdown from "../../components/Markdown.svelte";
   import NotFound from "../../data/NotFound.md";
 
@@ -22,14 +23,16 @@
 <Header />
 
 <Panel>
-  {#if table}
-    <h2>{cathegory.name} – {table.name}</h2>
-    <!-- Make a copy of source data using [...sourceData] to
-         ensure it doesn't get modified inside generator. -->
-    <Generator sourceList={[...table.items]} itemType={table.itemType} />
-  {:else}
-    <Markdown>
-      <NotFound />
-    </Markdown>
-  {/if}
+  <ScrollArea>
+    {#if table}
+      <h2>{cathegory.name} – {table.name}</h2>
+      <!-- Make a copy of source data using [...sourceData] to
+          ensure it doesn't get modified inside generator. -->
+      <Generator sourceList={[...table.items]} itemType={table.itemType} />
+    {:else}
+      <Markdown>
+        <NotFound />
+      </Markdown>
+    {/if}
+  </ScrollArea>
 </Panel>

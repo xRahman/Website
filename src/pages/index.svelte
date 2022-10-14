@@ -4,18 +4,21 @@
   import Header from "../components/Header.svelte";
   import Markdown from "../components/Markdown.svelte";
   import Panel from "../components/Panel.svelte";
+  import ScrollArea from "../components/ScrollArea.svelte";
   import { guiLocalization } from "../localization/guiLocalization";
 </script>
 
 <Header />
 
 <Panel>
-  <main>
-    <Markdown>
-      <About />
-    </Markdown>
-  </main>
-  <hr />
-  <p>{guiLocalization["cs"].connectToDiscord}</p>
-  <DiscordWidget />
+  <ScrollArea>
+    <main>
+      <Markdown>
+        <About />
+      </Markdown>
+    </main>
+    <hr />
+    <p>{guiLocalization["cs"].connectToDiscord}</p>
+    <DiscordWidget />
+  </ScrollArea>
 </Panel>

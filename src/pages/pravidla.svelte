@@ -2,6 +2,7 @@
   // import { onMount } from "svelte";
   import Header from "../components/Header.svelte";
   import Panel from "../components/Panel.svelte";
+  import ScrollArea from "../components/ScrollArea.svelte";
   import { guiLocalization } from "../localization/guiLocalization";
   import PDFObject from "pdfobject";
 
@@ -16,10 +17,12 @@
   <embed src={pdfPath} type="application/pdf" width="100%" height="100%">
 {:else}
   <Panel>
-    <p>{pdfNotSupported}</p>
-    <ul>
-      <li><a href={pdfPath} target="_blank">{downloadHere}</a></li>
-    </ul>
+    <ScrollArea>
+      <p>{pdfNotSupported}</p>
+      <ul>
+        <li><a href={pdfPath} target="_blank">{downloadHere}</a></li>
+      </ul>
+      </ScrollArea>
   </Panel>
 {/if}
 
