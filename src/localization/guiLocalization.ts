@@ -34,6 +34,11 @@ export const guiLocalization: GuiLocalizationInterface =
         label: "Generátory"
       },
       {
+        id: "dice",
+        route: "/kostky",
+        label: "Kostky"
+      },
+      {
         id: "links",
         route: "/odkazy",
         label: "Odkazy"

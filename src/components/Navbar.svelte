@@ -20,7 +20,7 @@
     justify-self: center;
   }
 
-  @media screen and (max-width: 29rem)
+  @media screen and (max-width: 34rem)
   {
     .Navbar
     {
