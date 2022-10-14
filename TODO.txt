@@ -44,7 +44,7 @@ ANOTHER UX IDEA:
      na mouseoveru rozbalovátko s výběrem)
   - v rozbalovátku pod k6 bude i kz,
     nebo možná bude mít samostatnej řádek.
-
+YET ANOTHER UX IDEA: výběr čísel swipováním.
   
 
 TODO:
