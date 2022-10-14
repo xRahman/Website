@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Dice } from "../utils/Dice"
   import Button from "./Button.svelte"
 
   export let sourceList: string[] = [];
@@ -12,12 +13,6 @@
     array.splice(index, 1);
   }
 
-  // Returns random integer in <0, upperBound) interval.
-  function getRandomInt(upperBound: number)
-  {
-    return Math.floor(Math.random() * upperBound);
-  }
-
   function generateItem()
   {
     if (sourceList.length < 1)
@@ -26,7 +21,7 @@
       return;
     }
 
-    const randomIndex = getRandomInt(sourceList.length);
+    const randomIndex = Dice.getRandomInt(sourceList.length);
     
     // Svelte will notice the assignment and rerender the list.
     outputList = [sourceList[randomIndex], ...outputList];
