@@ -11,7 +11,7 @@
     box-sizing: border-box;
     height: 100%;
 
-    padding: 2rem;
+    /* padding: 2rem; */
 
     text-align: justify;
     hyphens: manual;

@@ -12,6 +12,9 @@
 
     margin: var(--margin) auto;
 
+    box-sizing: border-box;
+    padding: 2rem;
+
     /* Subtract margins so we don't overflow our parent. */
     height: calc(100% - 2 * var(--margin));
     width: calc(100% - 2 * var(--margin));
