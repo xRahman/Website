@@ -121,8 +121,8 @@ export namespace Dice
 
     if (splitByK.length > 1)
     {
-      let numberOfDice = parseInt(splitByK["0"], 10);
-      const sizeOfDice = parseInt(splitByK["1"], 10);
+      let numberOfDice = parseInt(splitByK[0], 10);
+      const sizeOfDice = parseInt(splitByK[1], 10);
 
       if (isNaN(numberOfDice))
         numberOfDice = 1;
@@ -137,7 +137,7 @@ export namespace Dice
     }
     else
     {
-      result = parseInt(splitByK["0"], 10);
+      result = parseInt(splitByK[0], 10);
     }
 
     return result;
