@@ -5,9 +5,16 @@
   let rollCommand = "";
   let results: string[] = [];
 
+  let diceRollerInput: HTMLElement | undefined;
+
   function setFocus(element: HTMLElement)
   {
     element.focus();
+  }
+
+  function preventLosingFocus(event: FocusEvent)
+  {
+    diceRollerInput?.focus();
   }
 
   function onSubmit(event: SubmitEvent)
@@ -25,12 +32,14 @@
 <div class="DiceRoller">
   <form class="DiceRollerForm" on:submit|preventDefault={onSubmit}>
     <input
-      class="DiceInput"
+      class="DiceRollerInput"
       type="text"
       id="dice_input"
-      placeholder="Zadej například k6 + 4, 3kz + 2 nebo 2k8."
+      placeholder="Příklady: k6 + 4, 3kz + 2, 2k8"
       bind:value={rollCommand}
       use:setFocus
+      bind:this={diceRollerInput}
+      on:blur={preventLosingFocus}
     >
   </form>
   <ScrollArea>
@@ -38,7 +47,6 @@
 		  <p>{result}</p>
 	  {/each}
   </ScrollArea>
-  <!-- <div class="DiceLog"></div> -->
 </div>
 
 <style>
@@ -65,14 +73,10 @@
   {
     display: inline;
   } */
-  .DiceInput
+  .DiceRollerInput
   {
     width: 100%;
     box-sizing: border-box;
     display: inline-block;
   }
-  /* .DiceLog
-  {
-    height: 100%;
-  } */
 </style>

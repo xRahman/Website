@@ -1,5 +1,13 @@
+TODO: Prevent dice roller input from losing focus
+[done]
+
+TODO: Když dojdou položky v generátoru, renderovat dál button,
+  ale schovanej (nebo možná disablovanej), ať to divně neposkočí.
+[done]
+
 BUG: Generátory se neresetujou po kliknutí na jinou
   stránku a návratu zpět.
+[fixed]
 
 IDEA: Generátory jmen
   Tvorba hráčských postav

@@ -1,3 +1,9 @@
+TODO: Rollování přes swipery
+
+TODO: Lepší css pro dice roll input
+
+TODO: Přepsat parsování dice rollů pomocí regexpů
+
 TODO: Limit na počet hozenejch kostek
   - při překročení vrátit "Hrozně moc".
 
@@ -54,9 +60,6 @@ TODO:
 - dát na web pravidla v A4 sazbě
 - dát na web ceník
 
-
-TODO: Když dojdou položky v generátoru, renderovat dál button,
-  ale schovanej (nebo možná disablovanej), ať to divně neposkočí.
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 
