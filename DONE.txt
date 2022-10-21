@@ -1,3 +1,6 @@
+TODO: Lepší css pro dice roll input
+[done]
+
 TODO: Prevent dice roller input from losing focus
 [done]
 

@@ -34,7 +34,6 @@
     <input
       class="DiceRollerInput"
       type="text"
-      id="dice_input"
       placeholder="Příklady: k6 + 4, 3kz + 2, 2k8"
       bind:value={rollCommand}
       use:setFocus
@@ -78,5 +77,16 @@
     width: 100%;
     box-sizing: border-box;
     display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0.08rem solid black;
+    border-radius: 0.1rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .DiceRollerInput:focus
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.1rem solid black;
+    border-radius: 0.1rem;
+    outline:none;
   }
 </style>

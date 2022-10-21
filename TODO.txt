@@ -1,7 +1,5 @@
 TODO: Rollování přes swipery
 
-TODO: Lepší css pro dice roll input
-
 TODO: Přepsat parsování dice rollů pomocí regexpů
 
 TODO: Limit na počet hozenejch kostek
