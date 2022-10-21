@@ -5,6 +5,11 @@
   let rollCommand = "";
   let results: string[] = [];
 
+  function setFocus(element: HTMLElement)
+  {
+    element.focus();
+  }
+
   function onSubmit(event: SubmitEvent)
   {    
     const rollResult =
@@ -25,6 +30,7 @@
       id="dice_input"
       placeholder="Zadej například k6 + 4, 3kz + 2 nebo 2k8."
       bind:value={rollCommand}
+      use:setFocus
     >
   </form>
   <ScrollArea>

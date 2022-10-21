@@ -1,3 +1,6 @@
+TODO: Limit na počet hozenejch kostek
+  - při překročení vrátit "Hrozně moc".
+
 IDEA: Appka na rollování kostek
   (s historií minimálně v daný sešně browseru)
   - savování do local storage
