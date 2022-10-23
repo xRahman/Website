@@ -1,5 +1,5 @@
 <script lang="ts">
-  import HeaderText from "./HeaderText.svelte";
+  import HeaderText from "../shared/HeaderText.svelte";
 
   export let href = "/";
 </script>

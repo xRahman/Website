@@ -1,6 +1,6 @@
 <script lang="ts">
-  import HeaderText from "./HeaderText.svelte";
-  import { guiLocalization } from "../localization/guiLocalization";
+  import HeaderText from "../shared/HeaderText.svelte";
+  import { guiLocalization } from "../../localization/guiLocalization";
 </script>
 
 <a class="Logo" href="{"./"}">

@@ -1,6 +1,6 @@
 <script lang="ts">
   import Logo from "./Logo.svelte";
-  import Navbar from "./Navbar.svelte";
+  import Navbar from "../navbar/Navbar.svelte";
 </script>
 
 <div class="Header">

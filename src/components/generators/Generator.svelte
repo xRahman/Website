@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { Dice } from "../utils/Dice"
-  import Button from "./Button.svelte"
+  import { Dice } from "../../utils/Dice"
+  import Button from "../shared/Button.svelte"
 
   export let sourceList: string[] = [];
   export let itemType = "položka";

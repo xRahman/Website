@@ -1,6 +1,6 @@
 <script lang="ts">
   import Navlink from "./Navlink.svelte";
-  import { guiLocalization } from "../localization/guiLocalization";
+  import { guiLocalization } from "../../localization/guiLocalization";
 
   const navbarLocalization = guiLocalization.cs.navbar;
 </script>

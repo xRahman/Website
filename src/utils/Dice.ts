@@ -101,7 +101,7 @@ export namespace Dice
 
       for (let i = 0; i < numberOfDice; i++)
       {
-        console.log(`Rolling kz`);
+        // console.log(`Rolling kz`);
         result += rollKz();
       }
     }

@@ -1,6 +1,25 @@
-TODO: Rollování přes swipery
+TODO: Do textů v navbaru přidat
+  white-space: nowrap;
+
+TODO: Do navbaru přidat podtržení aktivního tabu.
+
+TODO: Záložky: "🖰 k6+x, kz+x", "🖰 xky+z", "⌨ xky+z"
+TODO: Záložka na roll ze seznamu položek
+
+TODO: Zavírání dropdownu kliknutím mimo a escapem.
+
+TODO: Textura do backgroundu dropdownu.
+
+TODO: Znamínko přepínat rovnou kliknutím.
+
+TODO: Když vyberu +0, přepnout znamínko na "+".
 
 TODO: Přepsat parsování dice rollů pomocí regexpů
+- bacha, mínus bude en-dash (–).
+IMPORTANT: Pořešit mínus.
+- při zadávání klávesnicí to asi bude klasický mínus,
+  v select boxech mám ale en-dash.
+  - nejjednodušší to asi bude pořešit regexpama.
 
 TODO: Limit na počet hozenejch kostek
   - při překročení vrátit "Hrozně moc".
@@ -25,34 +44,9 @@ IDEA: Appka na rollování kostek
   // opakování stejnýho pole, spotřebovaný položky přeškrtnout
   *[-na-sever-, na jih]: na jih
 
-IDEA: Výběr hodu přes radial menu
-- menu automaticky vyskočí na mouseover, výběrem se rovnou
-  hodí kostka nebo zadá hodnota.
-IMPLEMENTACE:
-- buttonky by asi mohly posílat string parseru,
-  třeba "k6 + 2"
-FORMÁT:
-  k6 + 2
-  2 + k6
-  2k10 + 4
-  3kz + 2
-- ouput: timestamp, co se házelo, result
-- lowercasovat
-- odstranit mezery
-- všechno, co se neinterpretuje, se ozávorkuje
-  (pokud to už ozávorkovaný není)
-  tj. 3kz + 2 léčivý lektvar hodí výsledek
-  (13. 5. 2022 17:31) [3kz + 2]: 4 (léčivý lektvar)
-ANOTHER UX IDEA:
-  Imput: [1][k6] + [0] <roll>
-  - [1], [k6] a [0] budou selectboxy
-    (mohly by se rozbalovat mouseoverem)
-    (nebo by to mohly bejt input boxy a současně mít
-     na mouseoveru rozbalovátko s výběrem)
-  - v rozbalovátku pod k6 bude i kz,
-    nebo možná bude mít samostatnej řádek.
-YET ANOTHER UX IDEA: výběr čísel swipováním.
-  
+TODO: Zkusit vytáhnout barvy textu (a nejspíš i další
+  css proměnný) do proměnnejch (nejspíš do css variables
+  definovanejch v App.svelte).
 
 TODO:
 - dát na web pravidla v A4 sazbě

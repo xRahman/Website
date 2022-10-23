@@ -1,3 +1,35 @@
+IDEA: Výběr hodu přes radial menu
+- menu automaticky vyskočí na mouseover, výběrem se rovnou
+  hodí kostka nebo zadá hodnota.
+IMPLEMENTACE:
+- buttonky by asi mohly posílat string parseru,
+  třeba "k6 + 2"
+FORMÁT:
+  k6 + 2
+  2 + k6
+  2k10 + 4
+  3kz + 2
+- ouput: timestamp, co se házelo, result
+- lowercasovat
+- odstranit mezery
+- všechno, co se neinterpretuje, se ozávorkuje
+  (pokud to už ozávorkovaný není)
+  tj. 3kz + 2 léčivý lektvar hodí výsledek
+  (13. 5. 2022 17:31) [3kz + 2]: 4 (léčivý lektvar)
+ANOTHER UX IDEA:
+  Imput: [1][k6] + [0] <roll>
+  - [1], [k6] a [0] budou selectboxy
+    (mohly by se rozbalovat mouseoverem)
+    (nebo by to mohly bejt input boxy a současně mít
+     na mouseoveru rozbalovátko s výběrem)
+  - v rozbalovátku pod k6 bude i kz,
+    nebo možná bude mít samostatnej řádek.
+YET ANOTHER UX IDEA: výběr čísel swipováním.
+[deprecated]
+
+TODO: Rollování přes swipery
+  [na to zatím kašlu]
+
 TODO: Lepší css pro dice roll input
 [done]
 

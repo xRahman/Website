@@ -1,10 +1,10 @@
 <script lang="ts">
   import About from "../data/About.md";
-  import DiscordWidget from "../components/DiscordWidget.svelte";
-  import Header from "../components/Header.svelte";
-  import Markdown from "../components/Markdown.svelte";
-  import Panel from "../components/Panel.svelte";
-  import ScrollArea from "../components/ScrollArea.svelte";
+  import DiscordWidget from "../components/shared/DiscordWidget.svelte";
+  import Header from "../components/header/Header.svelte";
+  import Markdown from "../components/shared/Markdown.svelte";
+  import Panel from "../components/shared/Panel.svelte";
+  import ScrollArea from "../components/shared/ScrollArea.svelte";
   import { guiLocalization } from "../localization/guiLocalization";
 </script>
 
