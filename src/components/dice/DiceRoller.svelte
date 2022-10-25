@@ -130,16 +130,25 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     align-items: center; */
-    display: grid;
-    grid-template-columns: repeat(auto-fill, auto);
-    grid-auto-columns: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, auto);
+    grid-auto-columns: fit-content; */
+    /* grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr)); */
     /* grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); */
     /* grid-template-columns: repeat(auto-fill, 20rem); */
     /* grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr); */
     /* grid-auto-flow: column; */
-    grid-column-gap: 2rem;
-    grid-row-gap: 1rem;
+    /* grid-column-gap: 2rem;
+    grid-row-gap: 1rem; */
   }
   .DiceRollerForm
   {

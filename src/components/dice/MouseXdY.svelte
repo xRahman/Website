@@ -77,6 +77,7 @@
     display: inline-block;
     white-space: nowrap;
     font-size: 2rem;
+    margin: auto;
     /* padding: 0.4rem;
     border: 0.1rem solid black;
     border-radius: 0.1rem; */
