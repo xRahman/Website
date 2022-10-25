@@ -19,7 +19,10 @@
     text-align: center;
 
     /* Text color */
-    color: rgb(60, 30, 0);  }
+    color: rgb(60, 30, 0);
+
+    cursor: pointer;
+  }
 
   .RollButton:hover
   {

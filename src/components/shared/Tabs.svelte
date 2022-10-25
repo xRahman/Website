@@ -22,7 +22,7 @@
   {
     justify-self: center;
 
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
   }
   .Tab
   {

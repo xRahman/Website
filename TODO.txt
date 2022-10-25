@@ -1,3 +1,6 @@
+TODO: Na tabech vypnout selectování myší
+- totéž na selectech a rolldownech
+
 TODO: Do textů v navbaru přidat
   white-space: nowrap;
 
