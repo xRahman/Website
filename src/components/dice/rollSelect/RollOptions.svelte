@@ -22,8 +22,10 @@
     position: absolute;
     list-style: none;
     padding: 0;
-    top: 100%;
-    left: 0;
+    top: 40%;
+    /* left: 0; */
+    left: 50%;
+    transform: translateX(-50%);
 
     background-color: rgba(240, 240, 240, 0.6);
     border: 0.06rem solid black;
