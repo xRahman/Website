@@ -3,7 +3,7 @@
 
   let command = "";
 
-  let diceRollerInput: HTMLElement | undefined;
+  let inputElement: HTMLInputElement | undefined;
 
   function setFocus(element: HTMLElement)
   {
@@ -12,20 +12,28 @@
 
   function preventLosingFocus(event: FocusEvent)
   {
-    diceRollerInput?.focus();
+    inputElement?.focus();
+  }
+
+  function submit()
+  {
+    // Select text in input element.
+    inputElement?.select();
+
+    processCommand(command);
   }
 </script>
 
 <form
   class="DiceForm"
-  on:submit|preventDefault={ () => processCommand(command)} >
+  on:submit|preventDefault={submit} >
   <input
     class="DiceInput"
     type="text"
     placeholder="Příklady: k6 + 4, 3kz + 2, 2k8"
     bind:value={command}
     use:setFocus
-    bind:this={diceRollerInput}
+    bind:this={inputElement}
     on:blur={preventLosingFocus} />
 </form>
 
