@@ -19,6 +19,7 @@
   {#if (menuVisible)}
     <RollOptions
       items={items}
+      bind:menuVisible={menuVisible}
       updateValue={updateValue}
     />
   {/if}

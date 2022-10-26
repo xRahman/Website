@@ -1,3 +1,13 @@
+TODO: V keyboard inputu po odeslání dát obsah inputu
+  jako selected.
+[done]
+
+TODO: Zavírání dropdownu kliknutím mimo a escapem.
+[done]
+
+TODO: Záložky: "🖰 k6+x, kz+x", "🖰 xky+z", "⌨ xky+z"
+[done]
+
 IDEA: Výběr hodu přes radial menu
 - menu automaticky vyskočí na mouseover, výběrem se rovnou
   hodí kostka nebo zadá hodnota.

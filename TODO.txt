@@ -1,9 +1,6 @@
 TODO: Refactoring
 - sjednotit styly u různejch druhů roll inputu
 
-TODO: V keyboard inputu po odeslání dát obsah inputu
-  jako selected.
-
 TODO: Na tabech vypnout selectování myší
 - totéž na selectech a rolldownech
 
@@ -12,10 +9,12 @@ TODO: Do textů v navbaru přidat
 
 TODO: Do navbaru přidat podtržení aktivního tabu.
 
-TODO: Záložky: "🖰 k6+x, kz+x", "🖰 xky+z", "⌨ xky+z"
 TODO: Záložka na roll ze seznamu položek
+  ["prší", "neprší"]
 
-TODO: Zavírání dropdownu kliknutím mimo a escapem.
+TODO: fixnout "-"
+  TODO: Parser by měl ideálně zvládnout obě varianty mínusu,
+    plus před výstupem by se mělo volat beautifyMinuses();
 
 TODO: Textura do backgroundu dropdownu.
 
