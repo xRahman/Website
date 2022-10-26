@@ -1,3 +1,7 @@
+TODO: Na tabech vypnout selectování myší
+- totéž na selectech a rolldownech
+[done]
+
 TODO: Znamínko přepínat rovnou kliknutím.
 [done]
 

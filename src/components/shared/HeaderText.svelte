@@ -10,6 +10,8 @@
 
     /* Make the text look engraved. */
     text-shadow: 0 0.1rem 0 var(--headerTextEngravingColor);
+
+    user-select: none;
   }
   .HeaderText:hover
   {

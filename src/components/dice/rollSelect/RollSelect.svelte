@@ -75,6 +75,8 @@
 
     /* Text color */
     color: rgb(60, 30, 0);
+
+    user-select: none;
   }
   .RollSelect:hover
   {

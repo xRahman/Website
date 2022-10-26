@@ -1,7 +1,3 @@
-TODO: Na tabech vypnout selectování myší
-- totéž na selectech a rolldownech
-
-
 TODO: Přepsat parsování dice rollů pomocí regexpů
 - bacha, mínus bude en-dash (–).
 IMPORTANT: Pořešit mínus.

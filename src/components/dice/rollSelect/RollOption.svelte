@@ -17,6 +17,7 @@
     cursor: pointer;
     text-align: center;
     white-space: nowrap;
+    user-select: none;
   }
   .Option:hover
   {
