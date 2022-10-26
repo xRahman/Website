@@ -2,10 +2,12 @@
   import RollSelect from "./rollSelect/RollSelect.svelte";
   import RollButton from "./rollSelect/RollButton.svelte";
 
-  export let value = "";
+  export let processCommand: (command: string) => void;
 
-  $: value = `${command.diceQuantity}${command.diceSize}`
-    + ` ${command.sign} ${command.constant}`;
+  let command = "";
+
+  $: command = `${state.diceQuantity}${state.diceSize}`
+    + ` ${state.sign} ${state.constant}`;
 
   const diceQuantities =
   [
@@ -39,10 +41,10 @@
     "12", "13", "14", "15"
   ];
 
-  const command =
+  const state =
   {
     diceQuantity: diceQuantities[0],
-    diceSize: diceSizes[1],
+    diceSize: diceSizes[5],
     sign: signs[0],
     constant: constants[0]
   }
@@ -50,22 +52,23 @@
 
 <form
   class="RollSelectForm"
-  on:submit>
+  on:submit|preventDefault={ () => processCommand(command) }
+>
   <RollSelect
     items={diceQuantities}
-    bind:value={command.diceQuantity}>
+    bind:value={state.diceQuantity}>
   </RollSelect>
   <RollSelect
     items={diceSizes}
-    bind:value={command.diceSize}>
+    bind:value={state.diceSize}>
   </RollSelect>
   <RollSelect
     items={signs}
-    bind:value={command.sign}>
+    bind:value={state.sign}>
   </RollSelect>
   <RollSelect
     items={constants}
-    bind:value={command.constant}>
+    bind:value={state.constant}>
   </RollSelect>
   =
   <RollButton />

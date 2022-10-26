@@ -1,3 +1,9 @@
+TODO: Refactoring
+- sjednotit styly u různejch druhů roll inputu
+
+TODO: V keyboard inputu po odeslání dát obsah inputu
+  jako selected.
+
 TODO: Na tabech vypnout selectování myší
 - totéž na selectech a rolldownech
 

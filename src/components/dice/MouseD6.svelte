@@ -2,9 +2,11 @@
   import RollSelect from "./rollSelect/RollSelect.svelte";
   import RollButton from "./rollSelect/RollButton.svelte";
 
-  export let value = "";
+  export let processCommand: (command: string) => void;
 
-  $: value = `k6 ${command.sign} ${command.constant}`;
+  let command = "";
+
+  $: command = `k6 ${state.sign} ${state.constant}`;
 
   const signs =
   [
@@ -19,7 +21,7 @@
     "12", "13", "14", "15"
   ];
 
-  const command =
+  const state =
   {
     sign: signs[0],
     constant: constants[0]
@@ -28,16 +30,16 @@
 
 <form
   class="RollSelectForm"
-  on:submit
+  on:submit|preventDefault={ () => processCommand(command) }
 >
   k6
   <RollSelect
     items={signs}
-    bind:value={command.sign}>
+    bind:value={state.sign}>
   </RollSelect>
   <RollSelect
     items={constants}
-    bind:value={command.constant}>
+    bind:value={state.constant}>
   </RollSelect>
   =
   <RollButton />
