@@ -1,6 +1,3 @@
-
-TODO: Textura do backgroundu dropdownu.
-
 TODO: Znamínko přepínat rovnou kliknutím.
 
 TODO: Když vyberu +0, přepnout znamínko na "+".

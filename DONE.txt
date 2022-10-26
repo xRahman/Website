@@ -1,3 +1,6 @@
+TODO: Textura do backgroundu dropdownu.
+[done]
+
 TODO: Hezčí mínusy řešit vždycky až při zobrazení
   - do value optionu dám "-", do zobrazení en-dash. 
 [done]

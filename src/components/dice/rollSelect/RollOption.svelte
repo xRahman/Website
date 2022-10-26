@@ -12,6 +12,7 @@
 <style>
   .Option
   {
+    background-color: rgba(240, 240, 240, 0.4);
     padding: 0.2rem 0.5rem;
     cursor: pointer;
     text-align: center;

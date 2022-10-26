@@ -55,7 +55,8 @@
     left: 50%;
     transform: translateX(-50%);
 
-    background-color: rgba(240, 240, 240, 0.6);
+    background-image: url("/assets/images/marbleTransparent.png");
+    background-repeat: repeat;
     border: 0.06rem solid black;
     border-radius: 0.1rem;
 
