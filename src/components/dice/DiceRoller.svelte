@@ -18,6 +18,16 @@
   ];
   let activeTab = tabs[0].id;
 
+  function uglifyMinuses(str: string)
+  {
+    return str.split("–").join("-");
+  }
+
+  function beautifyMinuses(str: string)
+  {
+    return str.split("-").join("–");
+  }
+
   function processCommand(command: string)
   {
     console.log("processCommand(): ", command);
@@ -25,10 +35,12 @@
     if (!command)
       return;
 
-    const result = `[${command}]: ${Dice.evaluate(command)}`;
+    const fixedCommand = uglifyMinuses(command);
+
+    const result = `[${command}]: ${Dice.evaluate(fixedCommand)}`;
 
     // Svelte will notice the assignment and rerender the list.
-    rollResults = [result, ...rollResults];
+    rollResults = [beautifyMinuses(result), ...rollResults];
   }
 </script>
 
