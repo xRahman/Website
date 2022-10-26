@@ -1,26 +1,10 @@
-TODO: Refactoring
-- sjednotit styly u různejch druhů roll inputu
-
-TODO: Na tabech vypnout selectování myší
-- totéž na selectech a rolldownech
-
-TODO: Do textů v navbaru přidat
-  white-space: nowrap;
-
-TODO: Do navbaru přidat podtržení aktivního tabu.
-
-TODO: Záložka na roll ze seznamu položek
-  ["prší", "neprší"]
-
-TODO: fixnout "-"
-  TODO: Parser by měl ideálně zvládnout obě varianty mínusu,
-    plus před výstupem by se mělo volat beautifyMinuses();
 
 TODO: Textura do backgroundu dropdownu.
 
 TODO: Znamínko přepínat rovnou kliknutím.
 
 TODO: Když vyberu +0, přepnout znamínko na "+".
+
 
 TODO: Přepsat parsování dice rollů pomocí regexpů
 - bacha, mínus bude en-dash (–).
@@ -29,8 +13,16 @@ IMPORTANT: Pořešit mínus.
   v select boxech mám ale en-dash.
   - nejjednodušší to asi bude pořešit regexpama.
 
+TODO: fixnout "-"
+  TODO: Parser by měl ideálně zvládnout obě varianty mínusu,
+    plus před výstupem by se mělo volat beautifyMinuses();
+- ok for now
+
 TODO: Limit na počet hozenejch kostek
   - při překročení vrátit "Hrozně moc".
+
+TODO: Refactoring
+- sjednotit styly u různejch druhů roll inputu
 
 IDEA: Appka na rollování kostek
   (s historií minimálně v daný sešně browseru)
@@ -52,9 +44,22 @@ IDEA: Appka na rollování kostek
   // opakování stejnýho pole, spotřebovaný položky přeškrtnout
   *[-na-sever-, na jih]: na jih
 
+
 TODO: Zkusit vytáhnout barvy textu (a nejspíš i další
   css proměnný) do proměnnejch (nejspíš do css variables
   definovanejch v App.svelte).
+
+TODO: Na tabech vypnout selectování myší
+- totéž na selectech a rolldownech
+
+TODO: Do textů v navbaru přidat
+  white-space: nowrap;
+
+TODO: Do navbaru přidat podtržení aktivního tabu.
+
+TODO: Záložka na roll ze seznamu položek
+  ["prší", "neprší"]
+
 
 TODO:
 - dát na web pravidla v A4 sazbě
@@ -62,6 +67,7 @@ TODO:
 
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
+- a nebo ji dělat důsledně
 
 Články
 ------

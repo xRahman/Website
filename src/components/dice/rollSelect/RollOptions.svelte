@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Strings } from "../../../utils/Strings";
+
   import RollOption from "./RollOption.svelte";
 
   export let items: string[] = [];
@@ -36,7 +38,7 @@
       value={item}
       updateValue={updateValue}
     >
-      {item}
+      {Strings.beautifyMinuses(item)}
     </RollOption>
   {/each}
 </ul>

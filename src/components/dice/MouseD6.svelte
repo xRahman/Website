@@ -11,7 +11,7 @@
   const signs =
   [
     "+",
-    "–"
+    "-"
   ];
   const constants =
   [

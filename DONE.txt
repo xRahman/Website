@@ -1,3 +1,7 @@
+TODO: Hezčí mínusy řešit vždycky až při zobrazení
+  - do value optionu dám "-", do zobrazení en-dash. 
+[done]
+
 TODO: V keyboard inputu po odeslání dát obsah inputu
   jako selected.
 [done]

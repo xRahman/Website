@@ -19,7 +19,7 @@
   const signs =
   [
     "+",
-    "–"
+    "-"
   ];
   const constants =
   [

@@ -1,11 +1,13 @@
 <script lang="ts">
+  import { Dice } from "../../utils/Dice";
+  import { Strings } from "../../utils/Strings";
+
   import Tabs from "../shared/Tabs.svelte";
   import ScrollArea from "../shared/ScrollArea.svelte";
   import MouseD6 from "./MouseD6.svelte";
   import MouseHD from "./MouseHD.svelte";
   import MouseXdY from "./MouseXdY.svelte";
   import KeyboardXdY from "./KeyboardXdY.svelte";
-  import { Dice } from "../../utils/Dice"
 
   // let rollCommand = "";
   let rollResults: string[] = [];
@@ -18,29 +20,15 @@
   ];
   let activeTab = tabs[0].id;
 
-  function uglifyMinuses(str: string)
-  {
-    return str.split("–").join("-");
-  }
-
-  function beautifyMinuses(str: string)
-  {
-    return str.split("-").join("–");
-  }
-
   function processCommand(command: string)
   {
-    console.log("processCommand(): ", command);
-
     if (!command)
       return;
 
-    const fixedCommand = uglifyMinuses(command);
-
-    const result = `[${command}]: ${Dice.evaluate(fixedCommand)}`;
+    const result = `[${command}]: ${Dice.evaluate(command)}`;
 
     // Svelte will notice the assignment and rerender the list.
-    rollResults = [beautifyMinuses(result), ...rollResults];
+    rollResults = [Strings.beautifyMinuses(result), ...rollResults];
   }
 </script>
 
