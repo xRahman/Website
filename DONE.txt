@@ -1,3 +1,6 @@
+TODO: Znamínko přepínat rovnou kliknutím.
+[done]
+
 TODO: Textura do backgroundu dropdownu.
 [done]
 

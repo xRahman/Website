@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Strings } from "../../../utils/Strings";
+
   import RollOptions from "./RollOptions.svelte";
 
   export let value = "";
@@ -10,13 +12,42 @@
   {
     value = newValue;
   };
+
+  function flipMenuVisibility()
+  {
+    menuVisible = !menuVisible;
+  }
+
+  function flipValue()
+  {
+    if (value === items[0])
+    {
+      value = items[1];
+    }
+    else
+    {
+      value = items[0];
+    }
+  }
+
+  function onClick(event: MouseEvent)
+  {
+    if (items.length > 2)
+    {
+      flipMenuVisibility();
+    }
+    else
+    {
+      flipValue();
+    }
+  }
 </script>
 
 <div
   class="RollSelect"
-  on:click={ () => { menuVisible = !menuVisible; } }>
-  {value}
-  {#if (menuVisible)}
+  on:click={onClick}>
+  {Strings.beautifyMinuses(value)}
+  {#if (menuVisible && items.length > 2)}
     <RollOptions
       items={items}
       bind:menuVisible={menuVisible}

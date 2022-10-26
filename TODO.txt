@@ -1,6 +1,5 @@
-TODO: Znamínko přepínat rovnou kliknutím.
-
-TODO: Když vyberu +0, přepnout znamínko na "+".
+TODO: Na tabech vypnout selectování myší
+- totéž na selectech a rolldownech
 
 
 TODO: Přepsat parsování dice rollů pomocí regexpů
@@ -45,9 +44,6 @@ IDEA: Appka na rollování kostek
 TODO: Zkusit vytáhnout barvy textu (a nejspíš i další
   css proměnný) do proměnnejch (nejspíš do css variables
   definovanejch v App.svelte).
-
-TODO: Na tabech vypnout selectování myší
-- totéž na selectech a rolldownech
 
 TODO: Do textů v navbaru přidat
   white-space: nowrap;
