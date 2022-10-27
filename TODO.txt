@@ -1,3 +1,5 @@
+TODO: úplně zneprůhlednit select options
+
 TODO: Přepsat parsování dice rollů pomocí regexpů
 - bacha, mínus bude en-dash (–).
 IMPORTANT: Pořešit mínus.

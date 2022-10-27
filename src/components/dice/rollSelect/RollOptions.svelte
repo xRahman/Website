@@ -54,6 +54,7 @@
     /* Position horizontally at the middle of parent element. */
     left: 50%;
     transform: translateX(-50%);
+    z-index: 999;
 
     background-image: url("/assets/images/marbleTransparent.png");
     background-repeat: repeat;
