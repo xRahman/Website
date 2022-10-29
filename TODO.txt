@@ -1,4 +1,8 @@
-TODO: úplně zneprůhlednit select options
+TODO: Na mobilu je text navbaru moc malej
+- asi udělat hamburger menu
+
+TODO: Přidat házecí tlačítko k text inputu
+- disablovat ho, dokud není vsutp validní
 
 TODO: Přepsat parsování dice rollů pomocí regexpů
 - bacha, mínus bude en-dash (–).

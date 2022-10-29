@@ -1,3 +1,10 @@
+TODO: úplně zneprůhlednit select options
+[done]
+
+TODO: Překrývání select options s jinym elementem
+  - opraveno nastavením z-indexu
+[done]
+
 TODO: Na tabech vypnout selectování myší
 - totéž na selectech a rolldownech
 [done]

@@ -56,7 +56,7 @@
     transform: translateX(-50%);
     z-index: 999;
 
-    background-image: url("/assets/images/marbleTransparent.png");
+    background-image: url("/assets/images/marble.jpg");
     background-repeat: repeat;
     border: 0.06rem solid black;
     border-radius: 0.1rem;
