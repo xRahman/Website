@@ -1,4 +1,12 @@
-<button class="RollButton" type=submit>
+<script lang="ts">
+  export let disabled = false;
+</script>
+
+<button
+  class="RollButton"
+  disabled={disabled}
+  type=submit
+>
   🎲
 </button>
 
@@ -15,7 +23,9 @@
 
     background-color: rgba(240, 240, 240, 0.7);
 
-    font-size: 1.75rem;
+    /* 🎲 is for some reason much bigger than the rest of the font.
+       We us "em" here to scale it down relative to parent font size. */
+    font-size: 0.875em;
     text-align: center;
 
     /* Text color */
@@ -23,7 +33,6 @@
 
     cursor: pointer;
   }
-
   .RollButton:hover
   {
     background-color: rgba(255, 255, 255, 0.8);
@@ -31,5 +40,12 @@
   .RollButton:active
   {
     background-color: rgba(220, 220, 220, 0.6);
+  }
+  .RollButton:disabled
+  {
+    color: gray;
+    border: 0.06rem solid gray;
+    background-color: rgba(220, 220, 220, 0.6);
+    cursor: default;
   }
 </style>

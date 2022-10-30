@@ -1,7 +1,12 @@
 <script lang="ts">
+  import { Dice } from "../../utils/Dice";
+
+  import RollButton from "./rollSelect/RollButton.svelte";
+
   export let processCommand: (command: string) => void;
 
   let command = "";
+  let rollButtonDisabled = true;
 
   let inputElement: HTMLInputElement | undefined;
 
@@ -22,6 +27,11 @@
 
     processCommand(command);
   }
+
+  function validateCommand()
+  {
+    rollButtonDisabled = !Dice.isCommandValid(command);
+  }
 </script>
 
 <form
@@ -34,23 +44,24 @@
     bind:value={command}
     use:setFocus
     bind:this={inputElement}
-    on:blur={preventLosingFocus} />
+    on:blur={preventLosingFocus}
+    on:input={validateCommand} />
+  <RollButton disabled={rollButtonDisabled} />
 </form>
 
 <style>
   .DiceForm
   {
-    /* width:100%; */
-    /* padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem; */
     padding-bottom: 1rem;
-    /* padding: 2rem; */
+ 
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-gap: 0.4rem;
   }
 
   .DiceInput
   {
-    width: 100%;
     box-sizing: border-box;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.7);

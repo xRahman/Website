@@ -5,9 +5,6 @@ TODO: Ve scroll arei přidat odsazení od scrollbaru
 TODO: Na mobilu je text navbaru moc malej
 - asi udělat hamburger menu
 
-TODO: Přidat házecí tlačítko k text inputu
-- disablovat ho, dokud není vsutp validní
-
 TODO: Refactoring
 - sjednotit styly u různejch druhů roll inputu
 

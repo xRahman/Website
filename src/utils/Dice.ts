@@ -25,22 +25,23 @@ export namespace Dice
     return getRandomInt(2);
   }
 
-  export function validateRollString(str: string): "VALID" | "INVALID"
+  export function isCommandValid(str: string): boolean
   {
-    return rollRegExp.test(str) ? "VALID" : "INVALID";
+    str = removeSpaces(str);
+
+    return rollRegExp.test(str);
   }
 
   function parseRollString(str: string):
-    {
-      numberOfDice: number,
-      typeOfDice: string,
-      sign: string,
-      constant: number
-    }
+  {
+    numberOfDice: number,
+    typeOfDice: string,
+    sign: string,
+    constant: number
+  }
     | "SYNTAX_ERROR"
   {
     str = removeSpaces(str);
-    str = str.toLowerCase();
 
     const parsed = rollRegExp.exec(str);
 

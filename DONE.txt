@@ -1,3 +1,7 @@
+TODO: Přidat házecí tlačítko k text inputu
+- disablovat ho, dokud není vsutp validní
+[done]
+
 TODO: Do výsledku hodu přidat mezery kolem znamínka.
 [done]
 
