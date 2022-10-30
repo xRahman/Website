@@ -1,23 +1,17 @@
+TODO: Ve scroll arei přidat odsazení od scrollbaru
+- možná bude na většině tabů potřeba vrátit původní css,
+  pokud to bude i s odsazením vypadat blbě.
+
+TODO: Do výsledku hodu přidat mezery kolem znamínka.
+
+TODO: Ve výsledcích hodu překládat "TOO_MANY_DICE" a "SYNTAX_ERROR"
+  na českej text (asi "strašně moc" a "nerozumím zadání").
+
 TODO: Na mobilu je text navbaru moc malej
 - asi udělat hamburger menu
 
 TODO: Přidat házecí tlačítko k text inputu
 - disablovat ho, dokud není vsutp validní
-
-TODO: Přepsat parsování dice rollů pomocí regexpů
-- bacha, mínus bude en-dash (–).
-IMPORTANT: Pořešit mínus.
-- při zadávání klávesnicí to asi bude klasický mínus,
-  v select boxech mám ale en-dash.
-  - nejjednodušší to asi bude pořešit regexpama.
-
-TODO: fixnout "-"
-  TODO: Parser by měl ideálně zvládnout obě varianty mínusu,
-    plus před výstupem by se mělo volat beautifyMinuses();
-- ok for now
-
-TODO: Limit na počet hozenejch kostek
-  - při překročení vrátit "Hrozně moc".
 
 TODO: Refactoring
 - sjednotit styly u různejch druhů roll inputu

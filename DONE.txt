@@ -1,3 +1,21 @@
+TODO: Přepsat parsování dice rollů pomocí regexpů
+- bacha, mínus bude en-dash (–).
+IMPORTANT: Pořešit mínus.
+- při zadávání klávesnicí to asi bude klasický mínus,
+  v select boxech mám ale en-dash.
+  - nejjednodušší to asi bude pořešit regexpama.
+[done]
+
+TODO: fixnout "-"
+  TODO: Parser by měl ideálně zvládnout obě varianty mínusu,
+    plus před výstupem by se mělo volat beautifyMinuses();
+- ok for now
+[done]
+
+TODO: Limit na počet hozenejch kostek
+  - při překročení vrátit "Hrozně moc".
+[done]
+
 TODO: úplně zneprůhlednit select options
 [done]
 
