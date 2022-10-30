@@ -1,3 +1,10 @@
+TODO: Do výsledku hodu přidat mezery kolem znamínka.
+[done]
+
+TODO: Ve výsledcích hodu překládat "TOO_MANY_DICE" a "SYNTAX_ERROR"
+  na českej text (asi "strašně moc" a "nerozumím zadání").
+[done]
+
 TODO: Přepsat parsování dice rollů pomocí regexpů
 - bacha, mínus bude en-dash (–).
 IMPORTANT: Pořešit mínus.

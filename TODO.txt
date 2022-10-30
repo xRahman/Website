@@ -2,11 +2,6 @@ TODO: Ve scroll arei přidat odsazení od scrollbaru
 - možná bude na většině tabů potřeba vrátit původní css,
   pokud to bude i s odsazením vypadat blbě.
 
-TODO: Do výsledku hodu přidat mezery kolem znamínka.
-
-TODO: Ve výsledcích hodu překládat "TOO_MANY_DICE" a "SYNTAX_ERROR"
-  na českej text (asi "strašně moc" a "nerozumím zadání").
-
 TODO: Na mobilu je text navbaru moc malej
 - asi udělat hamburger menu
 

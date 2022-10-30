@@ -20,15 +20,36 @@
   ];
   let activeTab = tabs[0].id;
 
+  function addSpaces(command: string)
+  {
+    command = Strings.removeSpaces(command);
+
+    command = command.split("+").join(" + ");
+    command = command.split("-").join(" - ");
+    command = command.split("–").join(" – ");
+
+    return command;
+  }
+
   function processCommand(command: string)
   {
     if (!command)
       return;
 
-    const result = `[${command}]: ${Dice.evaluate(command)}`;
+    let result: number | string = Dice.evaluate(command);
+
+    if (result === "SYNTAX_ERROR")
+      result = "nerozumím zadání";
+
+    if (result === "TOO_MANY_DICE") 
+      result = "strašně moc";
+
+    command = addSpaces(command);
+
+    let output = `[${command}]: ${result}`;
 
     // Svelte will notice the assignment and rerender the list.
-    rollResults = [Strings.beautifyMinuses(result), ...rollResults];
+    rollResults = [Strings.beautifyMinuses(output), ...rollResults];
   }
 </script>
 
