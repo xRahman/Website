@@ -89,7 +89,7 @@
         {
           // Matches any var / let / const variable name.
           "selector": "variable",
-          "format": ["camelCase"],
+          "format": ["camelCase", "UPPER_CASE"],
           "leadingUnderscore": "forbid"
         },
         {
