@@ -43,8 +43,9 @@
   }
   .RollButton:disabled
   {
+    opacity: 0.5;
     color: gray;
-    border: 0.06rem solid gray;
+    border: 0.06rem solid black;
     background-color: rgba(220, 220, 220, 0.6);
     cursor: default;
   }

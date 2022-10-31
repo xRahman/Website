@@ -8,6 +8,8 @@
     font-family: Constantia;
     font-weight: bold;
 
+    white-space: nowrap;
+
     /* Make the text look engraved. */
     text-shadow: 0 0.1rem 0 var(--headerTextEngravingColor);
 
