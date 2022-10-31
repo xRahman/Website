@@ -1,8 +1,4 @@
 
-TODO: Ve scroll arei přidat odsazení od scrollbaru
-- možná bude na většině tabů potřeba vrátit původní css,
-  pokud to bude i s odsazením vypadat blbě.
-
 TODO: Na mobilu je text navbaru moc malej
 - asi udělat hamburger menu
 
@@ -36,10 +32,6 @@ TODO: Zkusit vytáhnout barvy textu (a nejspíš i další
 
 TODO: Do navbaru přidat podtržení aktivního tabu.
 
-TODO: Záložka na roll ze seznamu položek
-  ["prší", "neprší"]
-
-
 TODO:
 - dát na web pravidla v A4 sazbě
 - dát na web ceník
@@ -47,6 +39,12 @@ TODO:
 
 TODO: Zrušit lokalizaci (zbytečně si to tím komplikuju)
 - a nebo ji dělat důsledně
+
+
+TODO: Záložka na roll ze seznamu položek
+  ["prší", "neprší"]
+[Tohle prozatím odkládám. Je to užitečný hlavně při online hraní,
+ a tam se hází na discordu. Plus existuje možnost hodit n-sided kostkou.]
 
 Články
 ------

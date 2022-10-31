@@ -1,3 +1,8 @@
+TODO: Ve scroll arei přidat odsazení od scrollbaru
+- možná bude na většině tabů potřeba vrátit původní css,
+  pokud to bude i s odsazením vypadat blbě.
+[done]
+
 TODO: Opravit disablování buttonu u generátorů.
 [done]
 
