@@ -1,3 +1,10 @@
+TODO: Opravit disablování buttonu u generátorů.
+[done]
+
+TODO: Do textů v navbaru přidat
+  white-space: nowrap;
+[done]
+
 TODO: Přidat házecí tlačítko k text inputu
 - disablovat ho, dokud není vsutp validní
 [done]

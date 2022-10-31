@@ -12,6 +12,7 @@
     height: 100%;
 
     /* padding: 2rem; */
+    padding-right: 1rem;
 
     text-align: justify;
     hyphens: manual;
