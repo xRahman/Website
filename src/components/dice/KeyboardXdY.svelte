@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Dice } from "../../utils/Dice";
 
-  import RollButton from "./rollSelect/RollButton.svelte";
+  import RollButton from "./RollButton.svelte";
 
   export let processCommand: (command: string) => void;
 

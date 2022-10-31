@@ -1,13 +1,9 @@
 <script lang="ts">
-  import RollSelect from "./rollSelect/RollSelect.svelte";
-  import RollButton from "./rollSelect/RollButton.svelte";
+  import RollSelect from "./select/RollSelect.svelte";
+  import RollButton from "./RollButton.svelte";
+  import RollSelectForm from "./RollSelectForm.svelte";
 
   export let processCommand: (command: string) => void;
-
-  let command = "";
-
-  $: command = `${state.diceQuantity}${state.diceSize}`
-    + ` ${state.sign} ${state.constant}`;
 
   const diceQuantities =
   [
@@ -15,11 +11,8 @@
     "5", "6", "7", "8",
     "9", "10", "11", "12",
     "13", "14", "15", "16"
-  ]
-  // const diceSizes =
-  // [
-  //   "kz", "k4", "k6", "k8", "k10", "k12", "k16", "k20"
-  // ];
+  ];
+
   const diceSizes =
   [
     "kz", "k2", "k3", "k4",
@@ -28,11 +21,9 @@
     "k13", "k14", "k15", "k16",
     "k17", "k18", "k19","k20"
   ];
-  const signs =
-  [
-    "+",
-    "-"
-  ];
+
+  const signs = [ "+", "-" ];
+
   const constants =
   [
     "0", "1", "2", "3",
@@ -48,12 +39,19 @@
     sign: signs[0],
     constant: constants[0]
   }
+
+  function submit(event: SubmitEvent)
+  {
+    event.preventDefault();
+  
+    processCommand
+    (
+      `${state.diceQuantity}${state.diceSize}${state.sign}${state.constant}`
+    );
+  }
 </script>
 
-<form
-  class="RollSelectForm"
-  on:submit|preventDefault={ () => processCommand(command) }
->
+<RollSelectForm on:submit={submit}>
   <RollSelect
     items={diceQuantities}
     bind:value={state.diceQuantity}>
@@ -72,15 +70,4 @@
   </RollSelect>
   =
   <RollButton />
-</form>
-
-<style>
-  .RollSelectForm
-  {
-    display: inline-block;
-    white-space: nowrap;
-    font-size: 2rem;
-    margin: auto;
-    user-select: none;
-  }
-</style>
+</RollSelectForm>

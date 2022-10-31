@@ -1,18 +1,12 @@
 <script lang="ts">
-  import RollSelect from "./rollSelect/RollSelect.svelte";
-  import RollButton from "./rollSelect/RollButton.svelte";
+  import RollSelect from "./select/RollSelect.svelte";
+  import RollButton from "./RollButton.svelte";
+  import RollSelectForm from "./RollSelectForm.svelte";
 
   export let processCommand: (command: string) => void;
 
-  let command = "";
+  const signs = [ "+", "-" ];
 
-  $: command = `k6 ${state.sign} ${state.constant}`;
-
-  const signs =
-  [
-    "+",
-    "-"
-  ];
   const constants =
   [
     "0", "1", "2", "3",
@@ -26,12 +20,15 @@
     sign: signs[0],
     constant: constants[0]
   }
+
+  function submit(event: SubmitEvent)
+  {
+    event.preventDefault();
+    processCommand(`k6${state.sign}${state.constant}`);
+  }
 </script>
 
-<form
-  class="RollSelectForm"
-  on:submit|preventDefault={ () => processCommand(command) }
->
+<RollSelectForm on:submit={submit}>
   k6
   <RollSelect
     items={signs}
@@ -43,15 +40,4 @@
   </RollSelect>
   =
   <RollButton />
-</form>
-
-<style>
-  .RollSelectForm
-  {
-    display: inline-block;
-    white-space: nowrap;
-    font-size: 2rem;
-    margin: auto;
-    user-select: none;
-  }
-</style>
+</RollSelectForm>

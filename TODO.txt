@@ -2,9 +2,6 @@
 TODO: Na mobilu je text navbaru moc malej
 - asi udělat hamburger menu
 
-TODO: Refactoring
-- sjednotit styly u různejch druhů roll inputu
-
 IDEA: Appka na rollování kostek
   (s historií minimálně v daný sešně browseru)
   - savování do local storage
