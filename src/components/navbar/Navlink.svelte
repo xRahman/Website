@@ -27,11 +27,11 @@
     cursor: pointer;
   }
 
-  @media screen and (max-width: 24rem)
+  /* @media screen and (max-width: 24rem)
   {
     .Navlink
     {
       font-size: 1rem;
     }
-  }
+  } */
 </style>

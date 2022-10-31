@@ -31,7 +31,7 @@
     align-items: center; */
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     align-items: center;
   }

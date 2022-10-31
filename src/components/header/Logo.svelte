@@ -18,6 +18,7 @@
        want to also remove your own styling. */
     all: unset;
 
+    margin: 0.4rem;
     font-size: 1.8rem;
 
     cursor: pointer;
@@ -54,13 +55,13 @@
   {
     .Logo
     {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
     }
 
     .Logo-image
     {
-      width: 1.2rem;
-      height: 1.2rem;
+      width: 1.6rem;
+      height: 1.6rem;
       margin: 0.3rem;
     }
   }

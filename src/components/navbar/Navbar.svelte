@@ -18,9 +18,12 @@
   {
     /* justify-self: end; */
     justify-self: center;
+
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
   }
 
-  @media screen and (max-width: 34rem)
+  /* @media screen and (max-width: 34rem)
   {
     .Navbar
     {
@@ -30,9 +33,10 @@
       align-items: center;
       justify-items: center;
     }
-  }
+  } */
 
-  @media screen and (max-width: 14rem)
+  /* @media screen and (max-width: 14rem) */
+  @media screen and (max-width: 34rem)
   {
     .Navbar
     {
@@ -41,6 +45,7 @@
       grid-template-rows: auto;
       align-items: center;
       justify-items: center;
+      grid-row-gap: 0.2rem;
     }
   }
 
