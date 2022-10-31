@@ -1,5 +1,5 @@
 <script lang="ts">
-  // export let disabled = false;
+  export let disabled = false;
   export let hidden = false;
 </script>
 
@@ -8,6 +8,7 @@
 <button
   class="Button"
   class:Hidden={hidden}
+  {disabled}
   on:click
 >
   <slot/>
