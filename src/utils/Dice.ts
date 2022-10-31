@@ -1,7 +1,5 @@
 export namespace Dice
 {
-  const rollRegExp = composeRollRegExp();
-
   // Returns random integer in <0, upperBound) interval.
   export function getRandomInt(upperBound: number): number
   {
@@ -13,11 +11,7 @@ export namespace Dice
     if (sides < 1)
       sides = 1;
 
-    const result = getRandomInt(sides) + 1;
-
-    // console.log(`Rolling k${sides}: ${result}`);
-
-    return result;
+    return getRandomInt(sides) + 1;
   }
 
   export function rollKz(): number
@@ -25,41 +19,15 @@ export namespace Dice
     return getRandomInt(2);
   }
 
-  export function isCommandValid(str: string): boolean
+  export function isCommandValid(command: string): boolean
   {
-    str = removeSpaces(str);
-
-    return rollRegExp.test(str);
+    return rollRegExp.test(removeSpaces(command));
   }
 
-  function parseRollString(str: string):
-  {
-    numberOfDice: number,
-    typeOfDice: string,
-    sign: string,
-    constant: number
-  }
-    | "SYNTAX_ERROR"
-  {
-    str = removeSpaces(str);
-
-    const parsed = rollRegExp.exec(str);
-
-    if (!parsed || !parsed.groups)
-      return "SYNTAX_ERROR";
-
-    const numberOfDice = parseInt(parsed.groups.numberOfDice, 10);
-    const typeOfDice = parsed.groups.typeOfDice;
-    const sign = parsed.groups.sign;
-    const constant = parseInt(parsed.groups.constant, 10);
-
-    return { numberOfDice, typeOfDice, sign, constant };
-  }
-
-  export function evaluate(str: string):
+  export function evaluate(command: string):
     number | "TOO_MANY_DICE" | "SYNTAX_ERROR"
   {
-    const parseResult = parseRollString(str);
+    const parseResult = parse(command);
 
     if (parseResult === "SYNTAX_ERROR")
       return "SYNTAX_ERROR";
@@ -82,7 +50,7 @@ export namespace Dice
     }
     else
     {
-      const sizeOfDice = parseInt(typeOfDice, 10);
+      const sizeOfDice = parseInt(typeOfDice, RADIX);
 
       if (isNaN(sizeOfDice))
         return "SYNTAX_ERROR";
@@ -102,131 +70,43 @@ export namespace Dice
       case "-":
         return result - constant;
 
-      default: return result;
+      default:
+        return result;
     }
   }
 
-  // // Note: Current version of Dice.evaluate() doesn't
-  // // correctly handle nonstandard inputs like "k6kz".
-  // export function evaluate(inputStr: string): number
-  // {
-  //   inputStr = removeSpaces(inputStr);
-  //   inputStr = inputStr.toLowerCase();
-
-  //   // console.log(`Evaluating ${inputStr}`);
-
-  //   return evaluateAddition(inputStr);
-  // }
-
   // -------------- private module stuff -----------------
+
+  const RADIX = 10;
+
+  const rollRegExp = composeRollRegExp();
+
+  function parse(command: string):
+    {
+      numberOfDice: number,
+      typeOfDice: string,
+      sign: string,
+      constant: number
+    }
+    | "SYNTAX_ERROR"
+  {
+    const result = rollRegExp.exec(removeSpaces(command));
+
+    if (!result || !result.groups)
+      return "SYNTAX_ERROR";
+
+    const numberOfDice = parseInt(result.groups.numberOfDice, RADIX);
+    const typeOfDice = result.groups.typeOfDice;
+    const sign = result.groups.sign;
+    const constant = parseInt(result.groups.constant, RADIX);
+
+    return { numberOfDice, typeOfDice, sign, constant };
+  }
 
   function removeSpaces(str: string): string
   {
     return str.split(" ").join("");
   }
-
-  // function evaluateAddition(inputStr: string): number
-  // {
-  //   let result = 0;
-
-  //   const splitByPlus = inputStr.split("+");
-
-  //   // console.log(`${splitByPlus}`);
-
-  //   // Add results of each group.
-  //   for (const node of splitByPlus)
-  //   {
-  //     // const tmp = evaluateSubtraction(node);
-
-  //     // console.log(`Adding ${tmp}`);
-  //     // result += tmp;
-
-  //     result += evaluateSubtraction(node);
-  //   }
-
-  //   return result;
-  // }
-
-  // function evaluateSubtraction(inputStr: string): number
-  // {
-  //   let result = 0;
-
-  //   const splitByMinus = inputStr.split("-");
-
-  //   // console.log("splitByMinus: ", splitByMinus);
-
-  //   result += evaluateKz(splitByMinus[0]);
-
-  //   for (let i = 1; i < splitByMinus.length; i++)
-  //   {
-  //     result -= evaluateKz(splitByMinus[i]);
-  //   }
-
-  //   return result;
-  // }
-
-  // function evaluateKz(str: string): number
-  // {
-  //   let result = 0;
-
-  //   const splitByKz = str.split("kz");
-
-  //   if (splitByKz.length > 1)
-  //   {
-  //     // This is not entirely correct - if someone
-  //     // types in something like "kzkz", result will
-  //     // be 1kz (because the first "kz" is not a number).
-  //     // It should work for sane inputs though.
-  //     let numberOfDice = parseInt(splitByKz[0], 10);
-
-  //     if (isNaN(numberOfDice))
-  //       numberOfDice = 1;
-
-  //     // console.log(`> Rolling: ${numberOfDice}kz`);
-
-  //     for (let i = 0; i < numberOfDice; i++)
-  //     {
-  //       // console.log(`Rolling kz`);
-  //       result += rollKz();
-  //     }
-  //   }
-  //   else
-  //   {
-  //     return evaluateKx(str);
-  //   }
-
-  //   return result;
-  // }
-
-  // function evaluateKx(node: string): number
-  // {
-  //   let result = 0;
-
-  //   const splitByK = node.split("k");
-
-  //   if (splitByK.length > 1)
-  //   {
-  //     let numberOfDice = parseInt(splitByK[0], 10);
-  //     const sizeOfDice = parseInt(splitByK[1], 10);
-
-  //     if (isNaN(numberOfDice))
-  //       numberOfDice = 1;
-
-  //     // console.log(`> Rolling: ${numberOfDice}k${sizeOfDice}`);
-
-  //     for (let i = 0; i < numberOfDice; i++)
-  //     {
-  //       // console.log(`Rolling k${sizeOfDice}`);
-  //       result += roll(sizeOfDice);
-  //     }
-  //   }
-  //   else
-  //   {
-  //     result = parseInt(splitByK[0], 10);
-  //   }
-
-  //   return result;
-  // }
 
   function composeRollRegExp(): RegExp
   {
@@ -236,9 +116,12 @@ export namespace Dice
     const sign = "[+-]";
     const constant = "[0-9]+";
 
-    const pattern =
-      `^(?<numberOfDice>${numberOfDice})k(?<typeOfDice>${typeOfDice})`
-      + `((?<sign>${sign})(?<constant>${constant}))?$`;
+    const dicerollPattern =
+      `(?<numberOfDice>${numberOfDice})k(?<typeOfDice>${typeOfDice})`;
+    const signPattern = `(?<sign>${sign})`;
+    const constantPattern = `(?<constant>${constant})`;
+
+    const pattern = `^${dicerollPattern}(${signPattern}${constantPattern})?$`;
 
     // "u" - reqire unicode.
     // "i" - case insensitive matching.
