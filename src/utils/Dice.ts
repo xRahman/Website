@@ -9,7 +9,7 @@ export namespace Dice
   export function roll(sides: number): number
   {
     if (sides < 1)
-      sides = 1;
+      return 0;
 
     return getRandomInt(sides) + 1;
   }
