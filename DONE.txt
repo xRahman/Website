@@ -1,3 +1,6 @@
+TODO: Odenterování nevalidního roll commandu = do nothing
+[done]
+
 TODO: Fixnout 20k0 (nejspíš invalid syntax)
 [done]
 

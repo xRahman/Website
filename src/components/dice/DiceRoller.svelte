@@ -36,6 +36,9 @@
     if (!command)
       return;
 
+    if (!Dice.isCommandValid(command))
+      return;
+
     let result: number | string = Dice.evaluate(command);
 
     if (result === "SYNTAX_ERROR")

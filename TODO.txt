@@ -1,6 +1,3 @@
-TODO: Odenterování nevalidního roll commandu = do nothing
-
-
 
 TODO: Nějak líp vyřešit scrollbar - na mobilu vypadá divně,
  když není u pravý strany obrazovky.
