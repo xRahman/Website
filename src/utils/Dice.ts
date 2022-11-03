@@ -111,8 +111,9 @@ export namespace Dice
   function composeRollRegExp(): RegExp
   {
     // Examples to be matched: "k6+2", "2k6-3", "3kz+2".
-    const numberOfDice = "[0-9]*";
-    const typeOfDice = "z|[0-9]+";
+    const numberOfDice = "([1-9][0-9]*)?";
+    // const numberOfDice = "B";
+    const typeOfDice = "z|[1-9][0-9]*";
     const sign = "[+-]";
     const constant = "[0-9]+";
 
