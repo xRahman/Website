@@ -1,3 +1,7 @@
+TODO: Změnit strukturu dat ke stažení:
+  místo https://dracak.surge.sh/data/adventures/ZpropadenyTrpaslik.pdf
+  dát https://dracak.surge.sh/dobrodruzstvi/ZpropadenyTrpaslik.pdf
+
 
 TODO: Nějak líp vyřešit scrollbar - na mobilu vypadá divně,
  když není u pravý strany obrazovky.
@@ -30,6 +34,16 @@ TODO: Záložka na roll ze seznamu položek
   *[-na-sever-, na jih]: na jih
 [Tohle prozatím odkládám. Je to užitečný hlavně při online hraní,
  a tam se hází na discordu. Plus existuje možnost hodit n-sided kostkou.]
+
+
+ÚVAHY k free pdf
+----------------
+
+- dát na web možnost stáhnout pdfko bez klikatelnejch odkazů
+  a na webshop "pay what you want" pdfko s odkazama
+- dát na web html verzi (klikatelnou) a na webshop
+  pay what you want" pdfko s odkazama
+
 
 Články
 ------
