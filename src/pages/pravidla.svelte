@@ -8,7 +8,7 @@
 
   const pdfNotSupported = guiLocalization.cs.rules.pdfNotSupported;
   const downloadHere = guiLocalization.cs.rules.downloadHere;
-  const pdfPath = "/data/rules/Dracak-latest.pdf";
+  const pdfPath = "/pravidla/Dracak-latest.pdf";
 </script>
 
 <Header></Header>

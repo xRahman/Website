@@ -1,3 +1,8 @@
+TODO: Změnit strukturu dat ke stažení:
+  místo https://dracak.surge.sh/data/adventures/ZpropadenyTrpaslik.pdf
+  dát https://dracak.surge.sh/dobrodruzstvi/ZpropadenyTrpaslik.pdf
+[done]
+
 TODO: Odenterování nevalidního roll commandu = do nothing
 [done]
 

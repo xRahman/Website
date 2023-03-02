@@ -1,8 +1,3 @@
-TODO: Změnit strukturu dat ke stažení:
-  místo https://dracak.surge.sh/data/adventures/ZpropadenyTrpaslik.pdf
-  dát https://dracak.surge.sh/dobrodruzstvi/ZpropadenyTrpaslik.pdf
-
-
 TODO: Nějak líp vyřešit scrollbar - na mobilu vypadá divně,
  když není u pravý strany obrazovky.
 
