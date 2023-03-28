@@ -93,7 +93,7 @@ export const randomTables: RandomTables =
           "kultistické tetování",
           "malý",
           "maska na tváři",
-          "náušnice nebo jiné ozdoby v kůži",
+          "náušnice nebo ozdoby kůže",
           "neobvyklý účes",
           "námořnické tetování",
           "orlí nos",
