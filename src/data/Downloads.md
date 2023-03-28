@@ -12,7 +12,11 @@
 
 ### Dob&shy;ro&shy;druž&shy;ství
 
-<p><a href="/dobrodruzstvi/ZpropadenyTrpaslik.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík (pdf)</a></p>
+<p>
+<a href="/dobrodruzstvi/ZpropadenyTrpaslik.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík (pdf)</a>
+<br>
+<a href="/dobrodruzstvi/ZpropadenyTrpaslik-no-images.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík bez ob&shy;ráz&shy;ků (pdf)</a>
+</p>
 
 <p>
 <a href="/dobrodruzstvi/ProkletyOstrov.pdf" target="_blank">Pro&shy;kle&shy;tý os&shy;trov (pdf)</a>
