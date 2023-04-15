@@ -31,6 +31,9 @@ TODO: Záložka na roll ze seznamu položek
  a tam se hází na discordu. Plus existuje možnost hodit n-sided kostkou.]
 
 
+Hamburger menu:
+  https://alvarotrigo.com/blog/hamburger-menu-css/
+
 ÚVAHY k free pdf
 ----------------
 
