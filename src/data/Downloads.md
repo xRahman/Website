@@ -14,6 +14,12 @@
 <a href="/pravidla/Dracak-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
 </p>
 
+### Shr&shy;nu&shy;tí pra&shy;vi&shy;del
+
+<p>
+<a href="/pravidla/Dracak-shrnuti-pravidel.pdf" target="_blank">Shr&shy;nu&shy;tí pra&shy;vi&shy;del (pdf)</a>
+</p>
+
 ### De&shy;ní&shy;ky
 
 <p><a href="/deniky/Deniky.Gamecon.2022.pdf" target="_blank">De&shy;ní&shy;ky z Ga&shy;me&shy;co&shy;nu 2022 (pdf)</a></p>
