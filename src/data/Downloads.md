@@ -14,10 +14,10 @@
 <a href="/pravidla/Dracak-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
 </p>
 
-### Shr&shy;nu&shy;tí pra&shy;vi&shy;del
+### Sou&shy;hrn pra&shy;vi&shy;del
 
 <p>
-<a href="/pravidla/Dracak-shrnuti-pravidel.pdf" target="_blank">Shr&shy;nu&shy;tí pra&shy;vi&shy;del (pdf)</a>
+<a href="/pravidla/Dracak-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (pdf)</a>
 </p>
 
 ### De&shy;ní&shy;ky
