@@ -23,6 +23,7 @@
 ### De&shy;ní&shy;ky
 
 <p><a href="/deniky/Deniky.Gamecon.2022.pdf" target="_blank">De&shy;ní&shy;ky z Ga&shy;me&shy;co&shy;nu 2022 (pdf)</a></p>
+<p><a href="/deniky/Deniky.Gamecon.2023.pdf" target="_blank">De&shy;ní&shy;ky z Ga&shy;me&shy;co&shy;nu 2023 (pdf)</a></p>
 
 ### Dob&shy;ro&shy;druž&shy;ství
 
