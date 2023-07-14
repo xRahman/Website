@@ -1,3 +1,6 @@
+TODO: Na hlavní stránku přidat, že to je hra vhodná pro začátečníky a je psaná tak, aby se ji zvládli naučit i hráči, kteří žádná RPGčka neznají.
++ že k dispozici jsou 4 připravená dobrodružství.
+
 TODO: Nějak líp vyřešit scrollbar - na mobilu vypadá divně,
  když není u pravý strany obrazovky.
 
