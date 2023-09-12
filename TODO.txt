@@ -1,3 +1,75 @@
+Generátor pokrmů:
+
+BĚŽNÁ KUCHYNĚ
+dušené hovězí
+kroupový nákyp
+pohankový nákyp
+zelné placky
+
+DEKADENTNÍ POKRMY
+pečená sluka v těstíčku skrytá v pavím vejci
+pečený zajíc s holubími křídly
+plži s medem a mákem
+
+EXOTICKÉ POKRMY
+pečená tkaničnice s banánem
+
+POKRMY PRO CHUDINU
+chleba s cibulí
+houby na kyselo
+hrachová kaše
+krysí guláš
+krysí špíz
+ovesná kaše s medem
+pečení vrabci
+pšeničné placky
+smaženice
+
+POLÉVKY
+bramboračka
+česnečka
+chlebová polévka
+houbová polévka
+kvasová polévka
+pórková polévka
+rybí polévka
+zelňačka
+
+PŘÍMOŘSKÁ KUCHYNĚ
+pečené ústřice
+vařený humr
+
+FANTASTICKÉ POKRMY
+gobliní grc
+nadívaný gryf
+polévka ze zápařníků duhových
+zapečené poletuší jazyky
+
+LUXUSNÍ POKRMY
+jehněčí se špenátem
+nadívaná holoubata
+pečené sele nadívané klobásou
+pečený divočák
+
+SALÁTY
+bramborový salát
+okurkový salát
+ředkvičkový salát
+
+TRVANLIVÉ JÍDLO
+elfský chléb
+křížaly
+nasolené maso
+nasolené ryby
+sušené maso
+sušené švestky
+trpaslický chléb
+tvrdý salám
+tvrdý sýr
+uzené maso
+uzené ryby
+
+
 TODO: Na hlavní stránku přidat, že to je hra vhodná pro začátečníky a je psaná tak, aby se ji zvládli naučit i hráči, kteří žádná RPGčka neznají.
 + že k dispozici jsou 4 připravená dobrodružství.
 
