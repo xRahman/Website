@@ -132,22 +132,22 @@ zapečené poletuší jazyky
 
 POLÉVKY
 bramboračka
-celerová polévka
+celerová
 česnečka
-chlebová polévka
+chlebová
 cibulačka
-houbová polévka
-kvasová polévka
-polévka z černého piva
-polévka z vepřové krve a octa
-pórková polévka
-rybí polévka
+houbová
+kvasová
+z černého piva
+z vepřové krve a octa
+pórková
+rybí
 zelňačka
 
 SALÁTY
-bramborový salát
-okurkový salát
-ředkvičkový salát
+bramborový
+okurkový
+ředkvičkový
 
 TRVANLIVÉ JÍDLO
 elfský chléb
