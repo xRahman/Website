@@ -776,16 +776,15 @@ export const randomTables: RandomTables =
       }
     }
   },
-  // eslint-disable-next-line @typescript-eslint/naming-convention
   pokrmy:
   {
     name: "Pokrmy",
     tables:
     {
       // eslint-disable-next-line @typescript-eslint/naming-convention
-      pokrmy_pro_chudinu:
+      pro_chudinu:
       {
-        name: "pokrmy pro chudinu",
+        name: "pro chudinu",
         itemType: "pokrm",
         items:
         [
@@ -868,10 +867,9 @@ export const randomTables: RandomTables =
           "smaženice"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      bezna_kuchyne:
+      bezne:
       {
-        name: "běžná kuchyně",
+        name: "běžné",
         itemType: "pokrm",
         items:
         [
@@ -900,10 +898,9 @@ export const randomTables: RandomTables =
           "zelné placky"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      primorska_kuchyne:
+      primorske:
       {
-        name: "přímořská kuchyně",
+        name: "přímořské",
         itemType: "pokrm",
         items:
         [
@@ -913,10 +910,9 @@ export const randomTables: RandomTables =
           "vařený humr"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      luxusni_pokrmy:
+      luxusni:
       {
-        name: "luxusní pokrmy",
+        name: "luxusní",
         itemType: "pokrm",
         items:
         [
@@ -935,10 +931,9 @@ export const randomTables: RandomTables =
           "promaštěná husička"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      fantasticke_pokrmy:
+      fantasticke:
       {
-        name: "fantastické pokrmy",
+        name: "fantastické",
         itemType: "pokrm",
         items:
         [
@@ -948,7 +943,6 @@ export const randomTables: RandomTables =
           "zapečené poletuší jazyky"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
       polevky:
       {
         name: "polévky",
@@ -956,16 +950,16 @@ export const randomTables: RandomTables =
         items:
         [
           "bramboračka",
-          "celerová polévka",
+          "celerová",
           "česnečka",
-          "chlebová polévka",
+          "chlebová",
           "cibulačka",
-          "houbová polévka",
-          "kvasová polévka",
-          "polévka z černého piva",
-          "polévka z vepřové krve a octa",
-          "pórková polévka",
-          "rybí polévka",
+          "houbová",
+          "kvasová",
+          "z černého piva",
+          "z vepřové krve a octa",
+          "pórková",
+          "rybí",
           "zelňačka"
         ]
       },
@@ -976,20 +970,17 @@ export const randomTables: RandomTables =
         itemType: "salát",
         items:
         [
-          "",
-          "bramborový salát",
-          "okurkový salát",
-          "ředkvičkový salát"
+          "bramborový",
+          "okurkový",
+          "ředkvičkový"
         ]
       },
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      trvanlive_jidlo:
+      trvanlive:
       {
-        name: "polévky",
+        name: "trvanlivé",
         itemType: "jídlo",
         items:
         [
-          "",
           "elfský chléb",
           "křížaly",
           "nasolené maso",
