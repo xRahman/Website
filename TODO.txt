@@ -2,17 +2,27 @@ Generátor pokrmů:
 
 BĚŽNÁ KUCHYNĚ
 dušené hovězí
+dušené hřiby
+dušené hřiby se smetanou
+dušené hřiby se škvarkami
+kozí guláš
+koňský guláš
+kroupové placky s kozím sýrem
 kroupový nákyp
+kuře pečené v hlíně
+pečená řepa
+pečení vrabci
 pohankový nákyp
 zelné placky
-
-DEKADENTNÍ POKRMY
-pečená sluka v těstíčku skrytá v pavím vejci
-pečený zajíc s holubími křídly
+fazole na kyselo
+nastavovaná kaše
+buchta s mákem
+utopenci
+chleba se sádlem a škvarkami
+opékaný špek
 plži s medem a mákem
+horké pyrohy
 
-EXOTICKÉ POKRMY
-pečená tkaničnice s banánem
 
 POKRMY PRO CHUDINU
 chleba s cibulí
@@ -20,24 +30,97 @@ houby na kyselo
 hrachová kaše
 krysí guláš
 krysí špíz
+omaštěný hrách
+kuba
+pučálka z naklíčeného hrachu
+ovesná kaše
 ovesná kaše s medem
-pečení vrabci
+ovesná kaše s mákem
+ovesná kaše s podmáslím
+ovesná kaše se semínky
+ovesná kaše s mlékem
+ovesná kaše se špekem
+ovesná kaše se sýrem
+ovesná kaše s křížalami
+ovesná kaše s rozinkami
+ovesná kaše s povidly
+kaše z otrub
+kaše z otrub s medem
+kaše z otrub s mákem
+kaše z otrub s podmáslím
+kaše z otrub se semínky
+kaše z otrub s mlékem
+kaše z otrub se špekem
+kaše z otrub se sýrem
+kaše z otrub s křížalami
+kaše z otrub s rozinkami
+kaše z otrub s povidly
+kaše z krup
+kaše z otrub s medem
+kaše z otrub s mákem
+kaše z otrub s podmáslím
+kaše z otrub se semínky
+kaše z otrub s mlékem
+kaše z otrub se špekem
+kaše z otrub se sýrem
+kaše z otrub s křížalami
+kaše z otrub s rozinkami
+kaše z otrub s povidly
+kaše z prosa
+kaše z otrub s medem
+kaše z otrub s mákem
+kaše z otrub s podmáslím
+kaše z otrub se semínky
+kaše z otrub s mlékem
+kaše z otrub se špekem
+kaše z otrub se sýrem
+kaše z otrub s křížalami
+kaše z otrub s rozinkami
+kaše z otrub s povidly
 pšeničné placky
+pšeničné placky s medem
+pšeničné placky s mákem
+pšeničné placky s podmáslím
+pšeničné placky se semínky
+pšeničné placky s mlékem
+pšeničné placky se špekem
+pšeničné placky se sýrem
+pšeničné placky s křížalami
+pšeničné placky s rozinkami
+pšeničné placky s povidly
 smaženice
+ječné placky
+ječné placky s medem
+ječné placky s mákem
+ječné placky s podmáslím
+ječné placky se semínky
+ječné placky s mlékem
+ječné placky se špekem
+ječné placky se sýrem
+ječné placky s křížalami
+ječné placky s rozinkami
+ječné placky s povidly
+nakládaní slimáci
+krysa na špejli
 
 POLÉVKY
 bramboračka
+cibulačka
 česnečka
 chlebová polévka
+celerová polévka
 houbová polévka
 kvasová polévka
 pórková polévka
 rybí polévka
 zelňačka
+polévka z vepřové krve a octa
+polévka z černého piva
 
 PŘÍMOŘSKÁ KUCHYNĚ
 pečené ústřice
 vařený humr
+dušená chobotnice
 
 FANTASTICKÉ POKRMY
 gobliní grc
@@ -50,6 +133,15 @@ jehněčí se špenátem
 nadívaná holoubata
 pečené sele nadívané klobásou
 pečený divočák
+míchaná křepelčí vejce
+promaštěná husička
+kousek prasátka
+omeleta z bažantích vajec
+dušené hřiby s exotickým kořením
+pečená sluka v těstíčku
+pečený zajíc s holubími křídly
+pečená tkaničnice s banánem
+palačinky s medem, sýrem a sezamovým semínkem
 
 SALÁTY
 bramborový salát
@@ -68,6 +160,8 @@ tvrdý salám
 tvrdý sýr
 uzené maso
 uzené ryby
+nasolené rybí maso
+sušená slanina
 
 
 TODO: Na hlavní stránku přidat, že to je hra vhodná pro začátečníky a je psaná tak, aby se ji zvládli naučit i hráči, kteří žádná RPGčka neznají.
