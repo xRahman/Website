@@ -775,5 +775,236 @@ export const randomTables: RandomTables =
         ]
       }
     }
+  },
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  pokrmy:
+  {
+    name: "Pokrmy",
+    tables:
+    {
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      pokrmy_pro_chudinu:
+      {
+        name: "pokrmy pro chudinu",
+        itemType: "pokrm",
+        items:
+        [
+          "chleba s cibulí",
+          "houby na kyselo",
+          "hrachová kaše",
+          "ječné placky",
+          "ječné placky s křížalami",
+          "ječné placky s mákem",
+          "ječné placky s medem",
+          "ječné placky s mlékem",
+          "ječné placky s podmáslím",
+          "ječné placky s povidly",
+          "ječné placky s rozinkami",
+          "ječné placky se semínky",
+          "ječné placky se špekem",
+          "ječné placky se sýrem",
+          "kaše z krup",
+          "kaše z krup s křížalami",
+          "kaše z krup s mákem",
+          "kaše z krup s medem",
+          "kaše z krup s mlékem",
+          "kaše z krup s podmáslím",
+          "kaše z krup s povidly",
+          "kaše z krup s rozinkami",
+          "kaše z krup se semínky",
+          "kaše z krup se špekem",
+          "kaše z krup se sýrem",
+          "kaše z otrub",
+          "kaše z otrub s křížalami",
+          "kaše z otrub s mákem",
+          "kaše z otrub s medem",
+          "kaše z otrub s mlékem",
+          "kaše z otrub s podmáslím",
+          "kaše z otrub s povidly",
+          "kaše z otrub s rozinkami",
+          "kaše z otrub se semínky",
+          "kaše z otrub se špekem",
+          "kaše z otrub se sýrem",
+          "kaše z prosa",
+          "kaše z prosa s křížalami",
+          "kaše z prosa s mákem",
+          "kaše z prosa s medem",
+          "kaše z prosa s mlékem",
+          "kaše z prosa s podmáslím",
+          "kaše z prosa s povidly",
+          "kaše z prosa s rozinkami",
+          "kaše z prosa se semínky",
+          "kaše z prosa se špekem",
+          "kaše z prosa se sýrem",
+          "krysa na špejli",
+          "krysí guláš",
+          "krysí špíz",
+          "kuba",
+          "nakládaní slimáci",
+          "omaštěný hrách",
+          "ovesná kaše",
+          "ovesná kaše s křížalami",
+          "ovesná kaše s mákem",
+          "ovesná kaše s medem",
+          "ovesná kaše s mlékem",
+          "ovesná kaše s podmáslím",
+          "ovesná kaše s povidly",
+          "ovesná kaše s rozinkami",
+          "ovesná kaše se semínky",
+          "ovesná kaše se špekem",
+          "ovesná kaše se sýrem",
+          "pšeničné placky",
+          "pšeničné placky s křížalami",
+          "pšeničné placky s mákem",
+          "pšeničné placky s medem",
+          "pšeničné placky s mlékem",
+          "pšeničné placky s podmáslím",
+          "pšeničné placky s povidly",
+          "pšeničné placky s rozinkami",
+          "pšeničné placky se semínky",
+          "pšeničné placky se špekem",
+          "pšeničné placky se sýrem",
+          "pučálka z naklíčeného hrachu",
+          "smaženice"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      bezna_kuchyne:
+      {
+        name: "běžná kuchyně",
+        itemType: "pokrm",
+        items:
+        [
+          "buchty s mákem",
+          "buchty s povidly",
+          "buchty s tvarohem",
+          "chleba se sádlem a škvarkami",
+          "dušené hovězí",
+          "dušené hřiby",
+          "dušené hřiby se škvarkami",
+          "dušené hřiby se smetanou",
+          "fazole na kyselo",
+          "horké pyrohy",
+          "koňský guláš",
+          "kozí guláš",
+          "kroupové placky s kozím sýrem",
+          "kroupový nákyp",
+          "kuře pečené v hlíně",
+          "nastavovaná kaše",
+          "opékaný špek",
+          "pečená řepa",
+          "pečení vrabci",
+          "plži s medem a mákem",
+          "pohankový nákyp",
+          "utopenci",
+          "zelné placky"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      primorska_kuchyne:
+      {
+        name: "přímořská kuchyně",
+        itemType: "pokrm",
+        items:
+        [
+          "dušené hřiby s exotickým kořením",
+          "dušená chobotnice",
+          "pečené ústřice",
+          "vařený humr"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      luxusni_pokrmy:
+      {
+        name: "luxusní pokrmy",
+        itemType: "pokrm",
+        items:
+        [
+          "dušené hřiby s exotickým kořením",
+          "jehněčí se špenátem",
+          "kousek prasátka",
+          "míchaná křepelčí vejce",
+          "nadívaná holoubata",
+          "omeleta z bažantích vajec",
+          "palačinky s medem, sýrem a sezamovým semínkem",
+          "pečená sluka v těstíčku",
+          "pečená tkaničnice s banánem",
+          "pečené sele nadívané klobásou",
+          "pečený divočák",
+          "pečený zajíc s holubími křídly",
+          "promaštěná husička"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      fantasticke_pokrmy:
+      {
+        name: "fantastické pokrmy",
+        itemType: "pokrm",
+        items:
+        [
+          "gobliní grc",
+          "nadívaný gryf",
+          "polévka ze zápařníků duhových",
+          "zapečené poletuší jazyky"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      polevky:
+      {
+        name: "polévky",
+        itemType: "polévka",
+        items:
+        [
+          "bramboračka",
+          "celerová polévka",
+          "česnečka",
+          "chlebová polévka",
+          "cibulačka",
+          "houbová polévka",
+          "kvasová polévka",
+          "polévka z černého piva",
+          "polévka z vepřové krve a octa",
+          "pórková polévka",
+          "rybí polévka",
+          "zelňačka"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      salaty:
+      {
+        name: "saláty",
+        itemType: "salát",
+        items:
+        [
+          "",
+          "bramborový salát",
+          "okurkový salát",
+          "ředkvičkový salát"
+        ]
+      },
+      // eslint-disable-next-line @typescript-eslint/naming-convention
+      trvanlive_jidlo:
+      {
+        name: "polévky",
+        itemType: "jídlo",
+        items:
+        [
+          "",
+          "elfský chléb",
+          "křížaly",
+          "nasolené maso",
+          "nasolené rybí maso",
+          "nasolené ryby",
+          "sušená slanina",
+          "sušené maso",
+          "sušené švestky",
+          "trpaslický chléb",
+          "tvrdý salám",
+          "tvrdý sýr",
+          "uzené maso",
+          "uzené ryby"
+        ]
+      }
+    }
   }
 };
