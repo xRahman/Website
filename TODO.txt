@@ -1,5 +1,8 @@
 Generátor pokrmů:
 
+vepřová pečeně
+husa na pekáči
+
 POKRMY PRO CHUDINU
 chleba s cibulí
 houby na kyselo
@@ -164,6 +167,35 @@ tvrdý sýr
 uzené maso
 uzené ryby
 
+
+Quentinův les:
+--------------
+1 :: Zarostlé maliníky (trní omezují pohyb, ale lze nasbírat jídlo na den)
+2 :: Opuštěná hájovna (ve sklepě rituální kruh k démonu smluv)
+3 :: Vysoké jehličnany, stromy zespoda tak holé, že na ně skoro nelze lézt, a navzájem tak podobné, že se tu dá snadno ztratit (jako nekonečná sloupoví do všech stran)
+4 :: Oltář (insert random table bohů)
+5 :: Obrovské balvany. Pro husté křoví se vyplatí místo chůze po zemi přeskakovat z kamene na kámen.
+6 :: Spláleniště po lesním požáru
+7 :: Obří strom (50%, že je na něm postavený hostinec)
+8 :: Pavučiny, všude (rozvibrování hlavních lan přivolá obří pavouky)
+9 :: Strmá strana kopce (dolů se klouže/padá snadno, nahoru je to dřina)*
+10 :: Nízké, vlezlé jehličnany, abyste prošli, tak se krčíte na kančí stezce.
+11 :: Zem pokrytá vyschlými popadanými stromy a větvemi
+12 :: Menhirový kruh (čaroděj by ucítil magický potenciál)
+13 :: Zbytky zapomenuté dlážděné cesty a odpočívadlo s kamennými lavicemi
+14 :: Rozzuřená říčka (je třeba přeskákat po kamenech nad hladinou)
+15 :: Mezi kořeny se vlnící potůček (žabí orchestr)
+16 :: Provazový most přes strž
+17 :: Pila a lány vykáceného lesa
+18 :: Jezírko s horkým pramenem
+19 :: Temnota pod hustě propletenými korunami stromů
+20 :: Přehledný travnatý kopeček s kluzkými svahy
+
+
+TODO: Výhledově možná přidat ke generátorům ještě jednu (nejvyšší) úroveň vnoření.
+
+TODO: Vyzkoušet přihlašování přes Google:
+  https://dev.to/safaiyeh/svelte-google-sign-in-out-3n1n
 
 TODO: Na hlavní stránku přidat, že to je hra vhodná pro začátečníky a je psaná tak, aby se ji zvládli naučit i hráči, kteří žádná RPGčka neznají.
 + že k dispozici jsou 4 připravená dobrodružství.
