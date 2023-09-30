@@ -295,3 +295,380 @@ Naopak se ti nejspíš moc líbit nebude, pokud:
 - Baví tě překonávat překážky hodem kostkou.
 - Čekáš od Pána jeskyně, že tě provede připraveným příběhem.
 [done]
+
+----------------------------------------------
+
+Generátor pokrmů:
+-----------------
+
+POKRMY PRO CHUDINU
+červí guláš
+chleba s cibulí
+chleba s psím sádlem
+haše
+houby na kyselo
+hrachová kaše
+ječné placky
+ječné placky s křížalami
+ječné placky s mákem
+ječné placky s medem
+ječné placky s mlékem
+ječné placky s podmáslím
+ječné placky s povidly
+ječné placky s rozinkami
+ječné placky se semínky
+ječné placky se špekem
+ječné placky se sýrem
+kroupová kaše
+kroupová kaše s křížalami
+kroupová kaše s mákem
+kroupová kaše s medem
+kroupová kaše s mlékem
+kroupová kaše s podmáslím
+kroupová kaše s povidly
+kroupová kaše s rozinkami
+kroupová kaše se semínky
+kroupová kaše se špekem
+kroupová kaše se švestkami
+kroupová kaše se sýrem
+krysa na špejli
+krysa v rumové omáčce
+krysí guláš
+krysí špíz
+kuba
+nakládaní slimáci
+omaštěný hrách
+otrubová kaše
+otrubová kaše s křížalami
+otrubová kaše s mákem
+otrubová kaše s medem
+otrubová kaše s mlékem
+otrubová kaše s podmáslím
+otrubová kaše s povidly
+otrubová kaše s rozinkami
+otrubová kaše se semínky
+otrubová kaše se špekem
+otrubová kaše se švestkami
+otrubová kaše se sýrem
+ovesná kaše
+ovesná kaše s křížalami
+ovesná kaše s mákem
+ovesná kaše s medem
+ovesná kaše s mlékem
+ovesná kaše s podmáslím
+ovesná kaše s povidly
+ovesná kaše s rozinkami
+ovesná kaše se semínky
+ovesná kaše se špekem
+ovesná kaše se švestkami
+ovesná kaše se sýrem
+pohanková kaše
+pohanková kaše s křížalami
+pohanková kaše s mákem
+pohanková kaše s medem
+pohanková kaše s mlékem
+pohanková kaše s podmáslím
+pohanková kaše s povidly
+pohanková kaše s rozinkami
+pohanková kaše se semínky
+pohanková kaše se špekem
+pohanková kaše se švestkami
+pohanková kaše se sýrem
+prosná kaše
+prosná kaše s křížalami
+prosná kaše s mákem
+prosná kaše s medem
+prosná kaše s mlékem
+prosná kaše s podmáslím
+prosná kaše s povidly
+prosná kaše s rozinkami
+prosná kaše se semínky
+prosná kaše se špekem
+prosná kaše se švestkami
+prosná kaše se sýrem
+pšeničné placky
+pšeničné placky s křížalami
+pšeničné placky s mákem
+pšeničné placky s medem
+pšeničné placky s mlékem
+pšeničné placky s podmáslím
+pšeničné placky s povidly
+pšeničné placky s rozinkami
+pšeničné placky se semínky
+pšeničné placky se špekem
+pšeničné placky se sýrem
+psí guláš
+pučálka z naklíčeného hrachu
+smažení červi
+smaženice
+
+POKRMY PRO MAJETNÉ
+borůvkové knedlíky
+buchty s mákem
+buchty s povidly
+buchty s tvarohem
+chleba se sádlem a škvarkami
+chleba se škvarkovou pomazánkou
+dušená kapusta s vařeným vepřovým
+dušená mrkev
+dušená mrkev s tuřínem
+dušené hovězí
+dušené hřiby
+dušené hřiby se škvarkami
+dušené hřiby se smetanou
+fazole na kyselo
+halušky s uzeným masem
+horké pyrohy
+houbové placičky
+hovězí na česneku
+hovězí roláda
+hovězí s koprovou omáčkou
+husa na pekáči
+husí játra na cibulce
+játra na cibulce
+kapr na černo
+kapr na pivě
+karbanátky
+katův šleh
+koblihy
+koňský guláš
+kozí guláš
+kozí guláš
+kozí játra na slanině
+kozí kýta na česneku
+kozí paznehty na medu
+kozí žebra na česneku
+kroupové placky s kozím sýrem
+kroupový nákyp
+kuře pečené v hlíně
+masový koláč
+nastavovaná kaše
+omeleta
+opékaný špek
+ovar
+ovocné knedlíky
+pečená buchta
+pečená řepa
+pečení vrabci
+pečený beran
+plži s medem a mákem
+pohankový nákyp
+prejt se zelím
+ryzce na medu
+sázená vejce
+skopový mozeček
+smažená mrkev
+smažené bedlové klobouky
+špekové knedlíky se zelím
+štrůdl
+sumec na knínu
+sušené ovoce máčené v mléce
+sušené ovoce máčené ve víně
+tuřínový nákyp
+utopenci
+uzená panenka na česneku
+vepřová pečeně
+vepřový jazyk s hořčicí
+vepřový mozeček
+zelné placky
+žemlovka
+
+PŘÍMOŘSKÁ KUCHYNĚ
+chaluhy na víně
+chapadla na česneku
+chobotnice na kmíně
+chobotnice v pálivé omáčce
+dušená chobotnice
+humr na grilu
+krab na grilu
+krab na kmíně
+losos na grilu
+losos na kmíně
+makrela na grilu
+makrela na kmíně
+pečené ústřice
+platýs na grilu
+platýs na kmíně
+přístavní směs
+štika na grilu
+štika na kmíně
+treska na grilu
+treska na kmíně
+tuňák na grilu
+tuňák na kmíně
+ústřice s citrónem
+uzená makrela
+uzená štika
+uzená treska
+uzený krab
+uzený losos
+uzený platýs
+uzený tuňák
+vařená štika
+vařený humr
+vařený krab
+vařený losos
+vařený makrela
+vařený platýs
+vařený treska
+vařený tuňák
+želví polévka
+žraločí stejk
+
+LUXUSNÍ POKRMY
+bažant na divoko
+dančí roláda
+divočák se šípkovou omáčkou
+divočák se zelím
+dušené hřiby s exotickým kořením
+dušený kapoun
+flambovaní skřivánci na víně
+grilované veverky
+jehněčí se špenátem
+jelení svíčková
+kančí pečínka
+kaviár s cibulkoua
+kousek prasátka
+křeček na víně
+liška na sádle
+marinovaní vrabci
+medvědí tlapy
+míchaná křepelčí vejce
+mývalí medajlónky
+nadívaná holoubata
+nadívaná holoubata
+nadívaná zmije
+nadívaný kapoun
+netopýr na másle
+netopýří křídýlka v pikantní omáčce
+omeleta z bažantích vajec
+palačinky s medem, sýrem a sezamovým semínkem
+pečená sluka v těstíčku
+pečená tkaničnice s banánem
+pečené opičí ocásky
+pečené sele nadívané klobásou
+pečený divočák
+pečený had
+pečený zajíc s holubími křídly
+plněný vinný list
+promaštěná husička
+pstruh na másle
+pstruh na másle
+smažený pstruh
+šnečí kaviár
+srnčí medajlónky
+srnčí žebírka
+vepřové ocásky v pepřové omáčce
+vlčí stejk s brusinkovou omáčkou
+žabí stehýnka
+zajíc na hříbkové omáčce
+
+EXOTICKÉ POKRMY
+banány
+kachna na pomerančích
+pečené sladké brambory
+pečený sloní chobot
+plněná paprika
+rajčata
+rýžová rolka se zeleninou
+rýžové bochánky
+rýžový nákyp
+smažený banán
+vařená rýže
+vařené brambory
+velbloudí guláš
+
+FANTASTICKÉ POKRMY
+barbarský guláš
+čarodějův špíz
+gobliní grc
+hobití boršč
+krakení guláš
+krollí polévka
+losos s mandragórou
+nadívaný gryf
+paštika z obřího šneka
+pečínka z huňáče
+pikantní křídla z harpyjí
+polévka ze zápařníků duhových
+skřetí kotlík
+skřetí šleh
+smažená ucukavka nedůtklivá
+smažená zlobří krev
+smažené vejce ptáka hroziváka
+špikované wyverní stehno
+stejk z lítého vlka
+vejce ptáka hroziváka na hniličku
+zapečené poletuší jazyky
+zlobří jazyk na másle
+zlodějské bochánky
+
+POLÉVKY
+bramboračka
+celerová
+česnečka
+chlebová
+cibulačka
+čočková
+dršťková
+dýňová
+houbová
+houbová
+hrachová
+kotrčová
+kulajda
+kvasová
+kyselo
+pórková
+prdelačka
+rajská
+rybí
+slepičí
+z černého piva
+z netopýřích křídel
+z vepřové krve a octa
+zelňačka
+
+SALÁTY
+fazolový
+hlávkový
+kopřivový
+mrkvový
+okurkový
+pórkový
+rajčatový
+ředkvičkový
+špenátový
+zelný
+
+STÁNKOVÝ PRODEJ
+grilovaná zelenina
+klobásy
+koblihy
+křížaly
+pečená jablka
+pečené kaštany
+preclíky
+smažení brouci
+štrůdl
+uho s chlebem
+uzenky
+uzený ovčí sýr
+
+TRVANLIVÉ JÍDLO
+elfský chléb
+křížaly
+nasolené maso
+nasolené rybí maso
+nasolené ryby
+sušená slanina
+sušené maso
+sušené ryby
+sušené švestky
+trpaslický chléb
+tvrdý salám
+tvrdý sýr
+uzené maso
+uzené ryby
+
+----------------------------------------------
