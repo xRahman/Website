@@ -26,7 +26,7 @@ export const randomTables: RandomTables =
       chovani:
       {
         name: "chování",
-        itemType: "rys",
+        itemType: "položka",
         items:
         [
           "držgrešle",
@@ -75,7 +75,7 @@ export const randomTables: RandomTables =
       vzhled:
       {
         name: "vzhled",
-        itemType: "rys",
+        itemType: "položka",
         items:
         [
           "albín",
@@ -114,6 +114,95 @@ export const randomTables: RandomTables =
           "výstředně se obléká",
           "zavalitý",
           "zlomený nos"
+        ]
+      },
+      detstvi:
+      {
+        name: "dětství",
+        itemType: "položka",
+        items:
+        [
+          "jako novic v chrámu",
+          "jako pomocník mocného čaroděje",
+          "jako pomocník starého alchymisty",
+          "jako sloužící v paláci",
+          "jako sluha bohatého kupce",
+          "jako student na akademii",
+          "jako učedník nějakého řemesla",
+          "jako učedník vesnické vědmy",
+          "jako žák starého mudrce",
+          "s bandity",
+          "s chudými rolníky",
+          "s dobrodruhy",
+          "s eskamotéry",
+          "s gladiátory",
+          "s horníky",
+          "s kupeckou karavanou",
+          "s lovci",
+          "s městskou chudinou",
+          "s městskou stráží",
+          "s námořníky",
+          "s piráty",
+          "s potulnými divadelníky",
+          "s potulnými hudebníky",
+          "s přístavními dělníky",
+          "s rybáři",
+          "s vojáky",
+          "s vykradači hrobek",
+          "se žoldáky",
+          "v bohaté kupecké rodině",
+          "v bohaté měšťanské rodině",
+          "v chudé měšťanské rodině",
+          "v kmenu kočovných lovců",
+          "v kmenu kočovných pastevců",
+          "v městském podsvětí",
+          "v rodině vysokého úředníka",
+          "ve šlechtické rodině          "
+        ]
+      },
+      zaliby:
+      {
+        name: "záliby",
+        itemType: "položka",
+        items:
+        [
+          "akrobacie",
+          "atletické soutěže",
+          "divadlo",
+          "filosofie",
+          "gladiátorské zápasy",
+          "historie",
+          "hra na buben",
+          "hra na citeru",
+          "hra na dudy",
+          "hra na flétnu",
+          "hra na harfu",
+          "hra na loutnu",
+          "hra na lyru",
+          "hra na píšťalu",
+          "hra na roh",
+          "hvízdání",
+          "jezdecké závody",
+          "kaligrafie",
+          "karty",
+          "kohoutí zápasy",
+          "kostky",
+          "malování",
+          "matematika",
+          "přednes",
+          "šachy",
+          "skořápky",
+          "střelecké soutěže",
+          "svádění",
+          "tanec",
+          "vaření",
+          "vozatajské závody",
+          "vrhání nožů",
+          "vyřezávání",
+          "vyšívání",
+          "žonglování",
+          "zpěv"
+
         ]
       }
     }
