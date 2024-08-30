@@ -4,7 +4,7 @@ export const guiLocalization: GuiLocalizationInterface =
 {
   cs:
   {
-    title: "Dračák podle staré školy",
+    title: "Dračí doupě k6",
     connectToDiscord: "Připoj se na Discord:",
     rules:
     {
