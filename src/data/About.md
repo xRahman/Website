@@ -1,7 +1,7 @@
 *Dra&shy;čí dou&shy;pě k6* je stol&shy;ní hra na hr&shy;diny in&shy;spi&shy;ro&shy;vaná pů&shy;vod&shy;ním Dra&shy;čím dou&shy;pětem. Stej&shy;ně jako v&nbsp;něm se mů&shy;žeš stát sil&shy;nou bar&shy;bar&shy;skou vá&shy;leč&shy;ni&shy;cí, slič&shy;ným el&shy;fím kou&shy;zel&shy;ní&shy;kem ne&shy;bo tře&shy;ba mršt&shy;nou ho&shy;bi&shy;tí zlo&shy;děj&shy;kou a&nbsp;spo&shy;lu se svý&shy;mi přá&shy;te&shy;li za&shy;žít spou&shy;stu zá&shy;ba&shy;vy při ob&shy;je&shy;vo&shy;vá&shy;ní ta&shy;jem&shy;ných hra&shy;dů a&nbsp;dáv&shy;no za&shy;po&shy;me&shy;nu&shy;tých ru&shy;in, proz&shy;kou&shy;má&shy;vá&shy;ní pod&shy;ze&shy;mí pl&shy;ných pas&shy;tí, ne&shy;stvůr a&nbsp;pok&shy;la&shy;dů ne&shy;bo tře&shy;ba při vý&shy;pra&shy;vě na dra&shy;ka de&shy;vas&shy;tu&shy;jí&shy;cí&shy;ho va&shy;še krá&shy;lov&shy;ství.
 
 Nej&shy;spíš se ti bu&shy;de lí&shy;bit, po&shy;kud:
-- Vy&shy;ho&shy;vu&shy;je ti kon&shy;ver&shy;zač&shy;ní styl hry, kde se há&shy;zí pře&shy;váž&shy;ně jen v&nbsp;bo&shy;ji.
+- Pre&shy;fe&shy;ru&shy;ješ kon&shy;ver&shy;zač&shy;ní styl hry, kde se há&shy;zí pře&shy;váž&shy;ně jen v&nbsp;bo&shy;ji.
 - Se&shy;dí ti sviž&shy;né sou&shy;bo&shy;je, kde má smy&shy;sl dě&shy;lat i&nbsp;ně&shy;co ji&shy;né&shy;ho než úto&shy;čit.
 - Ba&shy;ví tě vy&shy;mý&shy;šlet kre&shy;a&shy;tiv&shy;ní ře&shy;še&shy;ní po&shy;mo&shy;cí růz&shy;ných schop&shy;nos&shy;tí a&nbsp;před&shy;mě&shy;tů.
 - Vy&shy;ho&shy;vu&shy;je ti pře&shy;mýš&shy;let a&nbsp;mlu&shy;vit za svou pos&shy;ta&shy;vu.
