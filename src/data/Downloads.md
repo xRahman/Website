@@ -1,24 +1,24 @@
 ### Pra&shy;vid&shy;la
 
 <p>
-<a href="/pravidla/Dracak-pravidla.pdf" target="_blank">Pra&shy;vid&shy;la (pdf)</a>
+<a href="/pravidla/DrDk6-pravidla.pdf" target="_blank">Pra&shy;vid&shy;la (pdf)</a>
 <br>
-<a href="/pravidla/Dracak-pravidla-bez-obrazku.pdf" target="_blank">Pra&shy;vid&shy;la bez ob&shy;ráz&shy;ků (pdf)</a>
+<a href="/pravidla/DrDk6-pravidla-bez-obrazku.pdf" target="_blank">Pra&shy;vid&shy;la bez ob&shy;ráz&shy;ků (pdf)</a>
 </p>
 
 ### Be&shy;sti&shy;ář
 
 <p>
-<a href="/pravidla/Dracak-bestiar.pdf" target="_blank">Be&shy;sti&shy;ář (pdf)</a>
+<a href="/pravidla/DrDk6-bestiar.pdf" target="_blank">Be&shy;sti&shy;ář (pdf)</a>
 <br>
-<a href="/pravidla/Dracak-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
+<a href="/pravidla/DrDk6-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
 </p>
 
 <!---
 ### Sou&shy;hrn pra&shy;vi&shy;del
 
 <p>
-<a href="/pravidla/Dracak-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (pdf)</a>
+<a href="/pravidla/DrDk6-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (pdf)</a>
 </p>
 -->
 
