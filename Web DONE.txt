@@ -1,3 +1,7 @@
+TODO: Až bude ustálenej novej hosting, zrušit drdk6.cz na surge.sh (dracak.surge.sh nechat kvůli redirectu):
+https://surge.sh/help/tearing-down-a-project
+[done]
+
 TODO: Zrušit odkazy na nehotová dobrodružství.
 [done]
 
