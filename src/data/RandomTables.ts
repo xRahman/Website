@@ -64,12 +64,12 @@ export const randomTables: RandomTables =
           "zabíjí jen v krajní nouzi",
           "zbožný",
           "ztratil víru",
-          "zvědavý",
+          "zvědavý"
 
           // Následující rysy nejsou v pravidlech.
-          "citlivý žaludek",
-          "otužilý nebo zimomřivý",
-          "nejí maso"
+          // "citlivý žaludek",
+          // "otužilý nebo zimomřivý",
+          // "nejí maso"
         ]
       },
       vzhled:
@@ -96,12 +96,13 @@ export const randomTables: RandomTables =
           "náušnice nebo ozdoby kůže",
           "neobvyklý účes",
           "námořnické tetování",
+          "obézní",
           "orlí nos",
-          "otrocký cejch",
+          "cejch",
           "oči nezvyklé barvy",
           "pihovatý",
           "páska přes oko",
-          "přitažlivý",
+          "pohledný",
           "přísný výraz",
           "rituální tetování",
           "rozložitý",
@@ -112,7 +113,6 @@ export const randomTables: RandomTables =
           "vysoký",
           "výrazná brada",
           "výstředně se obléká",
-          "zavalitý",
           "zlomený nos"
         ]
       },
@@ -122,15 +122,9 @@ export const randomTables: RandomTables =
         itemType: "položka",
         items:
         [
-          "jako novic v chrámu",
-          "jako pomocník mocného čaroděje",
-          "jako pomocník starého alchymisty",
-          "jako sloužící v paláci",
-          "jako sluha bohatého kupce",
-          "jako student na akademii",
-          "jako učedník nějakého řemesla",
-          "jako učedník vesnické vědmy",
-          "jako žák starého mudrce",
+          "novic v chrámu",
+          "pomocník mocného čaroděje",
+          "pomocník starého alchymisty",
           "s bandity",
           "s chudými rolníky",
           "s dobrodruhy",
@@ -150,6 +144,11 @@ export const randomTables: RandomTables =
           "s vojáky",
           "s vykradači hrobek",
           "se žoldáky",
+          "sloužící v paláci",
+          "sluha bohatého kupce",
+          "student na akademii",
+          "učedník nějakého řemesla",
+          "učedník vesnické vědmy",
           "v bohaté kupecké rodině",
           "v bohaté měšťanské rodině",
           "v chudé měšťanské rodině",
@@ -157,7 +156,8 @@ export const randomTables: RandomTables =
           "v kmenu kočovných pastevců",
           "v městském podsvětí",
           "v rodině vysokého úředníka",
-          "ve šlechtické rodině          "
+          "ve šlechtické rodině",
+          "žák starého mudrce"
         ]
       },
       zaliby:
@@ -187,13 +187,13 @@ export const randomTables: RandomTables =
           "karty",
           "kohoutí zápasy",
           "kostky",
+          "krysa, fretka nebo jiný mazlíček",
           "malování",
           "matematika",
           "přednes",
           "šachy",
           "skořápky",
           "střelecké soutěže",
-          "svádění",
           "tanec",
           "vaření",
           "vozatajské závody",
@@ -202,7 +202,6 @@ export const randomTables: RandomTables =
           "vyšívání",
           "žonglování",
           "zpěv"
-
         ]
       }
     }
