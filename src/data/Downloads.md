@@ -14,13 +14,11 @@
 <a href="/pravidla/DrDk6-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
 </p>
 
-<!---
 ### Sou&shy;hrn pra&shy;vi&shy;del
 
 <p>
 <a href="/pravidla/DrDk6-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (pdf)</a>
 </p>
--->
 
 <!---
 ### De&shy;ní&shy;ky
