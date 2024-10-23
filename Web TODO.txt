@@ -1,3 +1,5 @@
+TODO: Refactorovat zvuky.
+
 Quentinův les:
 --------------
 1 :: Zarostlé maliníky (trní omezují pohyb, ale lze nasbírat jídlo na den)

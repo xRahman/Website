@@ -39,6 +39,11 @@ export const guiLocalization: GuiLocalizationInterface =
         label: "Kostky"
       },
       {
+        id: "sounds",
+        route: "/zvuky",
+        label: "Zvuky"
+      },
+      {
         id: "links",
         route: "/odkazy",
         label: "Odkazy"
