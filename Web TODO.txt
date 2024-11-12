@@ -1,5 +1,7 @@
 TODO: Refactorovat zvuky.
 
+IDEA: K odkazům ke stažení přidat ikonku downloadu (šipka dolů na vodorovné čáře).
+
 Quentinův les:
 --------------
 1 :: Zarostlé maliníky (trní omezují pohyb, ale lze nasbírat jídlo na den)
