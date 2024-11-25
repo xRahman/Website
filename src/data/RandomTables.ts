@@ -137,8 +137,7 @@ export const randomTables: RandomTables =
           "s městskou stráží",
           "s námořníky",
           "s piráty",
-          "s potulnými divadelníky",
-          "s potulnými hudebníky",
+          "s potulnými umělci",
           "s přístavními dělníky",
           "s rybáři",
           "s vojáky",
@@ -156,6 +155,7 @@ export const randomTables: RandomTables =
           "v kmenu kočovných pastevců",
           "v městském podsvětí",
           "v rodině vysokého úředníka",
+          "v sitotčinci",
           "ve šlechtické rodině",
           "žák starého mudrce"
         ]
