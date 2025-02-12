@@ -1,23 +1,23 @@
 ### Pra&shy;vid&shy;la
 
 <p>
-<a href="/pravidla/DrDk6-pravidla.pdf" target="_blank">Pra&shy;vid&shy;la (pdf)</a>
+<a href="/pravidla/DrDk6-pravidla.pdf" target="_blank">Pra&shy;vid&shy;la (provizorní ilustrace)</a>
 <br>
-<a href="/pravidla/DrDk6-pravidla-bez-obrazku.pdf" target="_blank">Pra&shy;vid&shy;la bez ob&shy;ráz&shy;ků (pdf)</a>
+<a href="/pravidla/DrDk6-pravidla-bez-obrazku.pdf" target="_blank">Pra&shy;vid&shy;la bez ob&shy;ráz&shy;ků (provizorní ilustrace)</a>
 </p>
 
 ### Be&shy;sti&shy;ář
 
 <p>
-<a href="/pravidla/DrDk6-bestiar.pdf" target="_blank">Be&shy;sti&shy;ář (pdf)</a>
+<a href="/pravidla/DrDk6-bestiar.pdf" target="_blank">Be&shy;sti&shy;ář (pdf, provizorní ilustrace)</a>
 <br>
-<a href="/pravidla/DrDk6-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (pdf)</a>
+<a href="/pravidla/DrDk6-bestiar-bez-obrazku.pdf" target="_blank">Be&shy;sti&shy;ář bez ob&shy;ráz&shy;ků (provizorní ilustrace)</a>
 </p>
 
 ### Sou&shy;hrn pra&shy;vi&shy;del
 
 <p>
-<a href="/pravidla/DrDk6-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (pdf)</a>
+<a href="/pravidla/DrDk6-souhrn-pravidel.pdf" target="_blank">Sou&shy;hrn pra&shy;vi&shy;del (provizorní obálka)</a>
 </p>
 
 <!---
@@ -30,11 +30,11 @@
 ### Dob&shy;ro&shy;druž&shy;ství
 
 <p>
-<a href="/dobrodruzstvi/OpustenaPevnost.pdf" target="_blank">O&shy;puš&shy;tě&shy;ná pev&shy;nost (pdf)</a>
+<a href="/dobrodruzstvi/OpustenaPevnost.pdf" target="_blank">O&shy;puš&shy;tě&shy;ná pev&shy;nost (provizorní ilustrace)</a>
 </p>
 
 <p>
-<a href="/dobrodruzstvi/ZatopenyDul.pdf" target="_blank">Za&shy;to&shy;pe&shy;ný důl (pdf)</a>
+<a href="/dobrodruzstvi/ZatopenyDul.pdf" target="_blank">Za&shy;to&shy;pe&shy;ný důl (provizorní ilustrace)</a>
 </p>
 
 <!---
