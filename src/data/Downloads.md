@@ -37,15 +37,12 @@
 <a href="/dobrodruzstvi/ZatopenyDul.pdf" target="_blank">Za&shy;to&shy;pe&shy;ný důl (provizorní ilustrace)</a>
 </p>
 
-<!---
 <p>
-<a href="/dobrodruzstvi/ZpropadenyTrpaslik.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík (pdf)</a>
+<a href="/dobrodruzstvi/DrDk6-Zpropadeny-trpaslik.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík (pdf)</a>
+</p>
 <!---
 <br>
 <a href="/dobrodruzstvi/ZpropadenyTrpaslik-no-images.pdf" target="_blank">Zpro&shy;pa&shy;de&shy;ný tr&shy;pas&shy;lík bez ob&shy;ráz&shy;ků (pdf)</a>
--->
-<!---
-</p>
 -->
 
 <!---
