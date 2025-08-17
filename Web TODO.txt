@@ -4,6 +4,7 @@ TODO: Udělat mapu hráčů podobně jako:
 https://svitky.nord.ninja/mapa-hracu-svitku-hrdinu/
 
 - filtry podle aktuálnosti dat, automatickej timeout (například když skupina hledá hráče)
+  Defaultně zobrazovat jen relativně čerstvý data (třeba týden od vyvěšení poptávky), ale umožnit zobrazit i ty expirovaný.
 - asi to bude vyžadovat přihlášení nebo minimálně uvedení kontaktu, jinak to moc nemá smysl.
 
 ---
