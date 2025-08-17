@@ -1,3 +1,13 @@
+---
+
+TODO: Udělat mapu hráčů podobně jako:
+https://svitky.nord.ninja/mapa-hracu-svitku-hrdinu/
+
+- filtry podle aktuálnosti dat, automatickej timeout (například když skupina hledá hráče)
+- asi to bude vyžadovat přihlášení nebo minimálně uvedení kontaktu, jinak to moc nemá smysl.
+
+---
+
 TODO: Refactorovat zvuky.
 
 IDEA: K odkazům ke stažení přidat ikonku downloadu (šipka dolů na vodorovné čáře).
