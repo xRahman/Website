@@ -1,3 +1,6 @@
+IDEA (prodej PDFka): Vedle linku ke stažení dát QR kódy s platbou (třeba 50 Kč, 100 Kč, 500 Kč).
+(tip by Toni, že platbu je pro přispěvatele potřeba co nejvíc zjednodušit)
+
 ---
 
 TODO: Udělat mapu hráčů podobně jako:
