@@ -33,7 +33,7 @@ export const randomTables: RandomTables =
           "exotický přízvuk",
           "gurmán",
           "když je nervózní, brousí si zbraně",
-          "kleptoman",
+          "komunikativní",
           "má oblíbenou frázi",
           "milovník alkoholu",
           "miluje boj",
@@ -222,7 +222,7 @@ export const randomTables: RandomTables =
           "exotický přízvuk",
           "gurmán",
           "když je nervózní, brousí si zbraně",
-          "kleptoman",
+          "komunikativní",
           "má oblíbenou frázi",
           "milovník alkoholu",
           "miluje boj",
@@ -261,6 +261,7 @@ export const randomTables: RandomTables =
           "nejí maso",
 
           // Rysy pouze pro nehráčské postavy.
+          "kleptoman",
           "nemotorný",
           "hlasitě chrápe",
           "dýchavičný",
